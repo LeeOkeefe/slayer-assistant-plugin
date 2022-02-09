@@ -1,0 +1,3517 @@
+[
+	{
+		"monster": "Aberrant spectres",
+		"slayerLevel": 60,
+		"locations": [
+			"Slayer Tower",
+			"Stronghold Slayer Cave"
+		],
+		"itemsRequired": [
+			{
+				"name": "Nose peg",
+				"icon": "Nose peg.png"
+			},
+			{
+				"name": "Slayer helmet",
+				"icon": "Slayer helmet.png"
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Magic"
+		],
+		"alternatives": [
+			"Deviant spectre"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Abyssal demons",
+		"slayerLevel": 85,
+		"locations": [
+			"Slayer Tower",
+			"Abyssal Area",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Demon"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Abyssal Sire"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Adamant dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Lithkren Vault"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged",
+			"Magic",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Ankous",
+		"slayerLevel": 1,
+		"locations": [
+			"Stronghold of Security",
+			"Wilderness volcano",
+			"Stronghold Slayer Cave",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Aviansie [note 1]",
+		"slayerLevel": 1,
+		"locations": [
+			"God Wars Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Ranged",
+				"icon": "Ranged.png"
+			},
+			{
+				"name": "Magic weaponry",
+				"icon": "Magic weaponry.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Ranged"
+		],
+		"alternatives": [
+			"Kree'arra",
+			"Flight Kilisa",
+			"Flockleader Geerin",
+			"Wingman Skree"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Bandits",
+		"slayerLevel": 1,
+		"locations": [
+			"Bandit Camp"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Banshees",
+		"slayerLevel": 15,
+		"locations": [
+			"Slayer Tower"
+		],
+		"itemsRequired": [
+			{
+				"name": "Earmuffs",
+				"icon": "Earmuffs.png"
+			},
+			{
+				"name": "Slayer helmet",
+				"icon": "Slayer helmet.png"
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Magical melee"
+		],
+		"alternatives": [
+			"Twisted Banshee"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Basilisks [note 2]",
+		"slayerLevel": 40,
+		"locations": [
+			"Fremennik Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Mirror shield",
+				"icon": "Mirror shield.png"
+			},
+			{
+				"name": "V's shield",
+				"icon": "V's shield.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Basilisk Knights"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Bats",
+		"slayerLevel": 1,
+		"locations": [
+			"Paterdomus",
+			"Morytania",
+			"Coal Trucks"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Giant bat",
+			"Albino bat",
+			"Deathwing"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Bears",
+		"slayerLevel": 1,
+		"locations": [
+			"East Ardougne",
+			"south of Varrock",
+			"south-east of Rellekka house portal"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Black bear",
+			"Grizzly bear",
+			"Callisto"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Birds",
+		"slayerLevel": 1,
+		"locations": [
+			"Across west Lumbridge bridge",
+			"Port Sarim pier",
+			"south of Falador"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Bird",
+			"Chicken",
+			"Mounted terrorbird gnome",
+			"Rooster",
+			"Seagull",
+			"Terrorbird",
+			"Vulture",
+			"Undead chicken"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Black demons",
+		"slayerLevel": 1,
+		"locations": [
+			"Taverley Dungeon",
+			"Edgeville Dungeon",
+			"Brimhaven Dungeon",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Demon"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Demonic gorilla",
+			"Balfrug Kreeyath",
+			"Skotizo",
+			"Porazdir"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Black dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Taverley Dungeon",
+			"Lava Maze",
+			"Evil Chicken's Lair"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"Baby black dragon",
+			"King Black Dragon",
+			"Brutal black dragon"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Black Knights",
+		"slayerLevel": 1,
+		"locations": [
+			"Lava Maze",
+			"north of Venenatis"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Bloodvelds",
+		"slayerLevel": 50,
+		"locations": [
+			"Slayer Tower",
+			"God Wars Dungeon",
+			"Meiyerditch Dungeon",
+			"Stronghold Slayer Cave"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magical melee"
+		],
+		"alternatives": [
+			"Mutated Bloodveld"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Blue dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Taverley Dungeon",
+			"Ogre Enclave",
+			"Heroes' Guild",
+			"Corsair Cove Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"Baby blue dragon",
+			"Brutal blue dragon",
+			"Vorkath"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Brine rats",
+		"slayerLevel": 47,
+		"locations": [
+			"Brine Rat Cavern"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve"
+		]
+	},
+	{
+		"monster": "Bronze dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Brimhaven Dungeon",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire",
+			"Ranged Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten"
+		]
+	},
+	{
+		"monster": "Catablepon",
+		"slayerLevel": 1,
+		"locations": [
+			"Stronghold of Security"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magic"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Cave bugs",
+		"slayerLevel": 7,
+		"locations": [
+			"Lumbridge Swamp Caves",
+			"Dorgesh-Kaan South Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Bullseye lantern (lit)",
+				"icon": "Bullseye lantern (lit).png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Cave crawlers",
+		"slayerLevel": 10,
+		"locations": [
+			"Fremennik Slayer Dungeon",
+			"Lumbridge Swamp Caves",
+			"Dorgesh-Kaan South Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Poison"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Cave horrors",
+		"slayerLevel": 58,
+		"locations": [
+			"Mos Le'Harmless Cave"
+		],
+		"itemsRequired": [
+			{
+				"name": "Witchwood icon",
+				"icon": "Witchwood icon.png"
+			},
+			{
+				"name": "Bullseye lantern (lit)",
+				"icon": "Bullseye lantern (lit).png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magical melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Cave slimes",
+		"slayerLevel": 17,
+		"locations": [
+			"Lumbridge Swamp Caves",
+			"Dorgesh-Kaan South Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Bullseye lantern (lit)",
+				"icon": "Bullseye lantern (lit).png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Poison"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Cave kraken",
+		"slayerLevel": 87,
+		"locations": [
+			"Kraken Cove"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magic"
+		],
+		"alternatives": [
+			"Kraken"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Chaos druids",
+		"slayerLevel": 1,
+		"locations": [
+			"Edgeville Dungeon",
+			"Chaos Temple"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Elder Chaos druid"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Cockatrices",
+		"slayerLevel": 25,
+		"locations": [
+			"Fremennik Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Mirror shield",
+				"icon": "Mirror shield.png"
+			},
+			{
+				"name": "V's shield",
+				"icon": "V's shield.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Cows",
+		"slayerLevel": 1,
+		"locations": [
+			"South of Falador",
+			"north of Al-Kharid gate",
+			"various locationss"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Cow calf",
+			"Undead cow"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Crawling Hands",
+		"slayerLevel": 5,
+		"locations": [
+			"Slayer Tower"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Crush"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Crocodiles",
+		"slayerLevel": 1,
+		"locations": [
+			"Near Elid",
+			"southern shore of Kharidian Desert"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Dagannoths",
+		"slayerLevel": 1,
+		"locations": [
+			"Lighthouse",
+			"Waterbirth Island Dungeon",
+			"Catacombs of Kourend",
+			"Jormungand's Prison"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Ranged or Melee"
+		],
+		"alternatives": [
+			"Dagannoth fledgeling",
+			"Dagannoth spawn",
+			"Dagannoth Prime",
+			"Dagannoth Rex",
+			"Dagannoth Supreme"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Dark beasts",
+		"slayerLevel": 90,
+		"locations": [
+			"Path to Temple of Light ( Mourner tunnels )",
+			"Iorwerth Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Dark warriors",
+		"slayerLevel": 1,
+		"locations": [
+			"Dark Warriors' Fortress"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Dogs",
+		"slayerLevel": 1,
+		"locations": [
+			"Ardougne",
+			"McGrubor's Wood",
+			"Black Arm Gang hideout in Brimhaven",
+			"Brimhaven Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Guard dog",
+			"Wild dog",
+			"Jackal",
+			"Temple Guardian"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Drakes",
+		"slayerLevel": 84,
+		"locations": [
+			"Karuulm Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Boots of stone",
+				"icon": "Boots of stone.png"
+			},
+			{
+				"name": ", Boots of brimstone",
+				"icon": ", Boots of brimstone.png"
+			},
+			{
+				"name": ",",
+				"icon": ",.png"
+			},
+			{
+				"name": "Granite boots",
+				"icon": "Granite boots.png"
+			}
+		],
+		"attributes": [
+			"Draconic"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Dust devils",
+		"slayerLevel": 65,
+		"locations": [
+			"Smoke Dungeon",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "Facemask",
+				"icon": "Facemask.png"
+			},
+			{
+				"name": "Slayer helmet",
+				"icon": "Slayer helmet.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Dwarves",
+		"slayerLevel": 1,
+		"locations": [
+			"Ice Mountain",
+			"Mining Guild",
+			"Keldagrim",
+			"Dwarven Mine",
+			"beneath White Wolf Mountain",
+			"south of Yanille"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Black Guard",
+			"Chaos dwarf"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Earth Warriors",
+		"slayerLevel": 1,
+		"locations": [
+			"Edgeville Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Elves",
+		"slayerLevel": 1,
+		"locations": [
+			"Lletya",
+			"Iorwerth Camp",
+			"Prifddinas"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee or ranged"
+		],
+		"alternatives": [
+			"Mourner (Lvl 108 variant only)"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Ent",
+		"slayerLevel": 1,
+		"locations": [
+			"Forests north and east of the Chaos Temple"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Fever spiders",
+		"slayerLevel": 42,
+		"locations": [
+			"Braindeath Island (brewery basement)"
+		],
+		"itemsRequired": [
+			{
+				"name": "Slayer gloves",
+				"icon": "Slayer gloves.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Fire giants",
+		"slayerLevel": 1,
+		"locations": [
+			"Brimhaven Dungeon",
+			"Deep Wilderness Dungeon",
+			"Smoke Dungeon",
+			"Waterfall Dungeon",
+			"Stronghold Slayer Cave",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Flesh Crawlers",
+		"slayerLevel": 1,
+		"locations": [
+			"Stronghold of Security (level 2)"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Fossil Island Wyvern",
+		"slayerLevel": 66,
+		"locations": [
+			"Wyvern Cave"
+		],
+		"itemsRequired": [
+			{
+				"name": "Elemental shield",
+				"icon": "Elemental shield.png"
+			},
+			{
+				"name": "Mind shield",
+				"icon": "Mind shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Ancient wyvern shield",
+				"icon": "Ancient wyvern shield.png"
+			}
+		],
+		"attributes": [
+			"Draconic"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged",
+			"Icy breath"
+		],
+		"alternatives": [
+			"Ancient wyvern",
+			"Spitting wyvern",
+			"Taloned wyvern",
+			"Long-tailed wyvern"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Gargoyles",
+		"slayerLevel": 75,
+		"locations": [
+			"Slayer Tower"
+		],
+		"itemsRequired": [
+			{
+				"name": "Rock hammer",
+				"icon": "Rock hammer.png"
+			},
+			{
+				"name": "Rock thrownhammer",
+				"icon": "Rock thrownhammer.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Grotesque Guardians"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Ghosts",
+		"slayerLevel": 1,
+		"locations": [
+			"Varrock Sewers",
+			"Draynor Manor",
+			"Melzar's Maze",
+			"Stronghold of Security",
+			"Taverley Dungeon",
+			"West Ardougne (graveyard)",
+			"Scorpius Shrine",
+			"Lair of Tarn Razorlor",
+			"Death altar",
+			"Haunted Mine",
+			"near Clan Wars",
+			"Forgotten Cemetery",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Tortured soul"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Ghouls",
+		"slayerLevel": 1,
+		"locations": [
+			"West of Canifis"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Ghoul Champion"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Goblins",
+		"slayerLevel": 1,
+		"locations": [
+			"Lumbridge Caves",
+			"Goblin Village",
+			"Port Sarim",
+			"around the Digsite",
+			"Stronghold of Security",
+			"Underground Pass",
+			"Goblin Cave",
+			"Coal Trucks",
+			"holes in Myreque Hideout in Mort Myre",
+			"God Wars Dungeon ( Bandos God Wars minions )",
+			"cave near Observatory",
+			"Dwarven coal mine",
+			"east of Barbarian Village"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Goblin Champion",
+			"Sergeant Strongstack",
+			"Sergeant Grimspike",
+			"Sergeant Steelwill"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Greater demons",
+		"slayerLevel": 1,
+		"locations": [
+			"Entrana Dungeon",
+			"Brimhaven Dungeon",
+			"Ogre Enclave",
+			"Demonic Ruins",
+			"Wilderness Volcano",
+			"Lava Maze Dungeon",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Demon"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"K'ril Tsutsaroth",
+			"Tstanon Karlak",
+			"Skotizo"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Green dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"West of the Dark Warriors' Fortress",
+			"north of the Graveyard of Shadows",
+			"South of the Lava Maze",
+			"South of Venenatis",
+			"Corsair Cove Dungeon (Requires completion of Dragon Slayer II )"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"Baby green dragon",
+			"Brutal green dragon",
+			"Elvarg"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Harpie bug swarms",
+		"slayerLevel": 33,
+		"locations": [
+			"Karamja"
+		],
+		"itemsRequired": [
+			{
+				"name": "Lit bug lantern",
+				"icon": "Lit bug lantern.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Hellhounds",
+		"slayerLevel": 1,
+		"locations": [
+			"Taverley Dungeon",
+			"east of the Deserted Keep",
+			"Karuulm Slayer Dungeon",
+			"Witchaven Shrine Dungeon",
+			"God Wars Dungeon",
+			"Wilderness Volcano",
+			"Stronghold Slayer Cave",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Cerberus"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Hill Giant",
+		"slayerLevel": 1,
+		"locations": [
+			"Deep Wilderness Dungeon",
+			"Edgeville Dungeon",
+			"Gnome Stronghold",
+			"Lava Maze",
+			"north of Observatory",
+			"Taverley Dungeon",
+			"Tree Gnome Village",
+			"Wilderness",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Giant Champion",
+			"Cyclops"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Hobgoblins",
+		"slayerLevel": 1,
+		"locations": [
+			"Asgarnian Ice Dungeon",
+			"Crandor",
+			"Hobgoblin Peninsula near Crafting Guild",
+			"Edgeville Dungeon",
+			"God Wars Dungeon",
+			"near Karamja Hunter area",
+			"north of Outpost",
+			"north of Rellekka",
+			"Tree Gnome Village dungeon",
+			"Waterbirth Island",
+			"Wilderness Hobgoblin Mine",
+			"Witchaven Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Hobgoblin Champion"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Hydras",
+		"slayerLevel": 95,
+		"locations": [
+			"Karuulm Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Draconic"
+		],
+		"attackStyles": [
+			"Magic, Ranged, Poison"
+		],
+		"alternatives": [
+			"Alchemical Hydra"
+		],
+		"slayerMasters": [
+			"Konar quo Maten"
+		]
+	},
+	{
+		"monster": "Icefiends",
+		"slayerLevel": 1,
+		"locations": [
+			"Ice Mountain",
+			"God Wars Dungeon",
+			"Wilderness God Wars Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magic",
+			"Ranged"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Ice giants",
+		"slayerLevel": 1,
+		"locations": [
+			"Asgarnian Ice Caves",
+			"Frozen Waste Plateau",
+			"White Wolf Mountain"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Ice warriors",
+		"slayerLevel": 1,
+		"locations": [
+			"White Wolf Mountain",
+			"Frozen Waste Plateau",
+			"Asgarnian Ice Caves"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Icelord"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Infernal Mages",
+		"slayerLevel": 45,
+		"locations": [
+			"Slayer tower"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magic"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Iron dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Brimhaven Dungeon",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Jellies",
+		"slayerLevel": 52,
+		"locations": [
+			"Fremennik Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magical melee"
+		],
+		"alternatives": [
+			"Warped Jelly"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten"
+		]
+	},
+	{
+		"monster": "Jungle horrors",
+		"slayerLevel": 1,
+		"locations": [
+			"Mos Le'Harmless"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Kalphites",
+		"slayerLevel": 1,
+		"locations": [
+			"Kalphite Lair",
+			"Kalphite Cave"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Kalphite"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Kalphite Queen",
+			"Kalphite Worker",
+			"Kalphite Soldier",
+			"Kalphite Guardian"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Killerwatts",
+		"slayerLevel": 37,
+		"locations": [
+			"Killerwatt plane"
+		],
+		"itemsRequired": [
+			{
+				"name": "Insulated boots",
+				"icon": "Insulated boots.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magical melee",
+			"ranged"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Kurasks",
+		"slayerLevel": 70,
+		"locations": [
+			"Fremennik Slayer Dungeon",
+			"Iorwerth Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Leaf-bladed spear",
+				"icon": "Leaf-bladed spear.png"
+			},
+			{
+				"name": "Magic Dart",
+				"icon": "Magic Dart.png"
+			},
+			{
+				"name": "Broad arrows",
+				"icon": "Broad arrows.png"
+			},
+			{
+				"name": "Broad bolts",
+				"icon": "Broad bolts.png"
+			}
+		],
+		"attributes": [
+			"Leafy"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Lava dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Lava Dragon Isle"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Lesser demons",
+		"slayerLevel": 1,
+		"locations": [
+			"Wizards' Tower",
+			"Karamja Dungeon",
+			"Crandor",
+			"Melzar's Maze",
+			"Demonic Ruins",
+			"Lava Maze",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Demon"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Zakl'n Gritch"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Lizardmen [note 1]",
+		"slayerLevel": 1,
+		"locations": [
+			"Lizardmen Settlement",
+			"Lizardman canyon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged"
+		],
+		"alternatives": [
+			"Lizardman brute",
+			"Lizardman shaman"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Lizards",
+		"slayerLevel": 22,
+		"locations": [
+			"Kharidian Desert"
+		],
+		"itemsRequired": [
+			{
+				"name": "Ice cooler",
+				"icon": "Ice cooler.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Desert Lizard",
+			"Lizard",
+			"Small Lizard",
+			"Sulphur Lizard"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna",
+			"Chaeldar",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Magic axes",
+		"slayerLevel": 1,
+		"locations": [
+			"Magic Axe Hut"
+		],
+		"itemsRequired": [
+			{
+				"name": "Lockpick",
+				"icon": "Lockpick.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Mammoth",
+		"slayerLevel": 1,
+		"locations": [
+			"West of the Chaos Temple"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Mithril dragons [note 1]",
+		"slayerLevel": 1,
+		"locations": [
+			"Ancient Cavern"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magic",
+			"Ranged",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Minotaurs",
+		"slayerLevel": 1,
+		"locations": [
+			"Stronghold of Security"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Mogres",
+		"slayerLevel": 32,
+		"locations": [
+			"Mudskipper Point"
+		],
+		"itemsRequired": [
+			{
+				"name": "Fishing explosive",
+				"icon": "Fishing explosive.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Molanisks",
+		"slayerLevel": 39,
+		"locations": [
+			"Dorgesh-Kaan South Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Slayer bell",
+				"icon": "Slayer bell.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Monkeys",
+		"slayerLevel": 1,
+		"locations": [
+			"Karamja",
+			"Mos Le'Harmless",
+			"Ardougne Zoo"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Monkey Guard",
+			"Monkey Archer",
+			"Zombie monkey and more (like Padulah )"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Moss giants",
+		"slayerLevel": 1,
+		"locations": [
+			"Brimhaven Dungeon",
+			"Crandor",
+			"west of Fishing Guild",
+			"Moss Giant Island",
+			"Wilderness",
+			"Varrock Sewers",
+			"Pirates' Cove",
+			"Glarial's Tomb",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Nechryael",
+		"slayerLevel": 80,
+		"locations": [
+			"Slayer Tower",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Demon"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Ogres",
+		"slayerLevel": 1,
+		"locations": [
+			"Gu'Tanoth",
+			"west of Yanille",
+			"south of Castle Wars",
+			"south of Gu'Tanoth",
+			"Toban 's Island",
+			"Chaos Druid Tower dungeon",
+			"Clock Tower Dungeon",
+			"Witchaven Dungeon",
+			"Underground Pass",
+			"Combat Training Camp",
+			"God Wars Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Ogre chieftain",
+			"Enclave guard",
+			"Ogress Shaman",
+			"Ogress Warrior"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Otherworldly beings",
+		"slayerLevel": 1,
+		"locations": [
+			"Zanaris"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Pirate",
+		"slayerLevel": 1,
+		"locations": [
+			"Pirates' Hideout"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Pyrefiends",
+		"slayerLevel": 30,
+		"locations": [
+			"Fremennik Slayer Dungeon",
+			"Smoke Dungeon",
+			"God Wars Dungeon",
+			"Wilderness God Wars Dungeon",
+			"Iorwerth Dungeon,"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Fiery"
+		],
+		"attackStyles": [
+			"Magical melee"
+		],
+		"alternatives": [
+			"Pyrelord"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Rats",
+		"slayerLevel": 1,
+		"locations": [
+			"Throughout Gielinor"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Giant rat",
+			"Dungeon rat",
+			"Crypt rat",
+			"Brine rat",
+			"Hell-Rat Behemoth"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Red dragons [note 1]",
+		"slayerLevel": 1,
+		"locations": [
+			"Brimhaven Dungeon",
+			"Catacombs of Kourend (brutal variant)"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"Baby red dragons",
+			"Brutal red dragons"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Revenants",
+		"slayerLevel": 1,
+		"locations": [
+			"Revenant Caves"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged",
+			"Magic"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Rockslugs",
+		"slayerLevel": 20,
+		"locations": [
+			"Fremennik Slayer Dungeon",
+			"Lumbridge Swamp Caves",
+			"Dorgesh-Kaan South Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Bag of salt",
+				"icon": "Bag of salt.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Rogues",
+		"slayerLevel": 1,
+		"locations": [
+			"Rogues' Castle",
+			"southwest of Mage Arena"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia"
+		]
+	},
+	{
+		"monster": "Rune Dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Lithkren"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Super antifire potion(4)",
+				"icon": "Super antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Slash",
+			"Ranged",
+			"Magic",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Scabarites",
+		"slayerLevel": 1,
+		"locations": [
+			"Dungeon under Sophanem",
+			"dungeon east of the Agility Pyramid"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Kalphite"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magic",
+			"Ranged"
+		],
+		"alternatives": [
+			"Locust riders",
+			"Scarab mages",
+			"Scarab swarms"
+		],
+		"slayerMasters": [
+			"Nieve"
+		]
+	},
+	{
+		"monster": "Scorpions",
+		"slayerLevel": 1,
+		"locations": [
+			"Al-Kharid Mine",
+			"Dwarven mines",
+			"Ardougne Zoo Scorpion Pit",
+			"Stronghold of Security",
+			"Varrock Sewers",
+			"Wilderness",
+			"above Karamja Volcano"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"King Scorpion",
+			"Poison Scorpion",
+			"Pit Scorpion",
+			"Scorpia",
+			"Lobstrosity"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Sea snakes",
+		"slayerLevel": 1,
+		"locations": [
+			"Miscellania & Etceteria Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee (and Ranged for Giant Sea Snake)"
+		],
+		"alternatives": [
+			"Sea Snake Hatchling",
+			"Sea Snake Young",
+			"Giant Sea Snake"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Shades",
+		"slayerLevel": 1,
+		"locations": [
+			"Mort'ton",
+			"Shade Catacombs",
+			"Temple Trekking",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Shade",
+			"Undead"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Loar",
+			"Phryn",
+			"Riyl",
+			"Asyn and Fiyr shades"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Shadow warriors",
+		"slayerLevel": 1,
+		"locations": [
+			"Legends' Guild basement"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Skeletal Wyverns",
+		"slayerLevel": 72,
+		"locations": [
+			"Asgarnian Ice Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Elemental shield",
+				"icon": "Elemental shield.png"
+			},
+			{
+				"name": "Mind shield",
+				"icon": "Mind shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			}
+		],
+		"attributes": [
+			"Draconic"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged",
+			"Icy breath"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Skeletons",
+		"slayerLevel": 1,
+		"locations": [
+			"Edgeville Dungeon",
+			"Draynor Sewers",
+			"Karamja Volcano",
+			"Ogre Enclave",
+			"Stronghold of Security",
+			"Taverley Dungeon",
+			"Temple of Ikov",
+			"Varrock Sewers",
+			"Waterfall Dungeon",
+			"Wilderness Agility Course",
+			"Barrows",
+			"Melzar's Maze",
+			"Wilderness Volcano",
+			"Ape Atoll Dungeon",
+			"Underground Pass"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Skeleton Champion",
+			"Vet'ion"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Smoke devils",
+		"slayerLevel": 93,
+		"locations": [
+			"Smoke Devil Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Facemask",
+				"icon": "Facemask.png"
+			},
+			{
+				"name": "Slayer helmet",
+				"icon": "Slayer helmet.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magical ranged"
+		],
+		"alternatives": [
+			"Thermonuclear smoke devil",
+			"Nuclear smoke devil"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Sourhogs",
+		"slayerLevel": 1,
+		"locations": [
+			"Sourhog Cave"
+		],
+		"itemsRequired": [
+			{
+				"name": "Reinforced goggles",
+				"icon": "Reinforced goggles.png"
+			},
+			{
+				"name": "Slayer helmet",
+				"icon": "Slayer helmet.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Turael"
+		]
+	},
+	{
+		"monster": "Spiders",
+		"slayerLevel": 1,
+		"locations": [
+			"Melzar's Maze",
+			"Sorceress 's house",
+			"Lumbridge Castle basement",
+			"behind Lumbridge Castle",
+			"Stronghold of Security",
+			"Ape Atoll temple",
+			"Ogre Enclave",
+			"Wilderness",
+			"Karamja",
+			"Underground Pass"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Giant spider",
+			"Shadow spider",
+			"Jungle spider",
+			"Deadly red spider",
+			"Poison spider",
+			"Blessed spider",
+			"Kalrag",
+			"Crypt spider",
+			"Temple Spider",
+			"Sarachnis",
+			"Venenatis"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Turael"
+		]
+	},
+	{
+		"monster": "Spiritual creatures",
+		"slayerLevel": 1,
+		"locations": [
+			"God Wars Dungeon",
+			"Wilderness God Wars Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Varies with target"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Vannaka",
+			"Chaeldar",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Steel dragons",
+		"slayerLevel": 1,
+		"locations": [
+			"Brimhaven Dungeon",
+			"Catacombs of Kourend"
+		],
+		"itemsRequired": [
+			{
+				"name": "Anti-dragon shield",
+				"icon": "Anti-dragon shield.png"
+			},
+			{
+				"name": "Dragonfire shield",
+				"icon": "Dragonfire shield.png"
+			},
+			{
+				"name": "Antifire potion(4)",
+				"icon": "Antifire potion(4).png"
+			}
+		],
+		"attributes": [
+			"Draconic",
+			"Fiery"
+		],
+		"attackStyles": [
+			"Melee",
+			"Dragonfire"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Suqahs",
+		"slayerLevel": 1,
+		"locations": [
+			"Lunar Isle"
+		],
+		"itemsRequired": [
+			{
+				"name": "None ( Seal of passage recommended to communicate with Moon Clan people)",
+				"icon": "None ( Seal of passage recommended to communicate with Moon Clan people).png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magic"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Terror dogs",
+		"slayerLevel": 40,
+		"locations": [
+			"Tarn's Lair"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Trolls",
+		"slayerLevel": 1,
+		"locations": [
+			"Trollheim",
+			"tunnel outside of Keldagrim",
+			"Death Plateau ( Mountain troll )",
+			"icy islands north of Neitiznot and Jatizso",
+			"Ice Path north of Trollheim ( Ice trolls )"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee",
+			"Ranged"
+		],
+		"alternatives": [
+			"Mountain troll",
+			"Ice troll grunt",
+			"Runt",
+			"Male and Female",
+			"Ice troll",
+			"River troll"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Turoths",
+		"slayerLevel": 55,
+		"locations": [
+			"Fremennik Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "Leaf-bladed spear",
+				"icon": "Leaf-bladed spear.png"
+			},
+			{
+				"name": "Magic Dart",
+				"icon": "Magic Dart.png"
+			},
+			{
+				"name": "Broad arrows",
+				"icon": "Broad arrows.png"
+			},
+			{
+				"name": "Broad bolts",
+				"icon": "Broad bolts.png"
+			}
+		],
+		"attributes": [
+			"Leafy"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka",
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve"
+		]
+	},
+	{
+		"monster": "Vampyres [note 3]",
+		"slayerLevel": 1,
+		"locations": [
+			"God Wars Dungeon",
+			"Wilderness God Wars Dungeon",
+			"Haunted Woods",
+			"near Abandoned Mine"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Vampyre"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Wall beasts",
+		"slayerLevel": 35,
+		"locations": [
+			"Lumbridge Swamp Caves"
+		],
+		"itemsRequired": [
+			{
+				"name": "Spiny helmet",
+				"icon": "Spiny helmet.png"
+			},
+			{
+				"name": "Slayer helmet",
+				"icon": "Slayer helmet.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Mazchna",
+			"Vannaka",
+			"Chaeldar"
+		]
+	},
+	{
+		"monster": "Waterfiends",
+		"slayerLevel": 1,
+		"locations": [
+			"Ancient Cavern",
+			"Kraken Cove"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magic",
+			"Magical ranged"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Konar quo Maten",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Werewolves",
+		"slayerLevel": 1,
+		"locations": [
+			"Canifis",
+			"God Wars Dungeon",
+			"Wilderness God Wars Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Vannaka"
+		]
+	},
+	{
+		"monster": "Wolves",
+		"slayerLevel": 1,
+		"locations": [
+			"Stronghold of Security",
+			"White Wolf Mountain",
+			"Feldip Hills"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Big Wolf",
+			"Dire wolf",
+			"Jungle wolf",
+			"Desert Wolf",
+			"Ice Wolf"
+		],
+		"slayerMasters": [
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Wyrms",
+		"slayerLevel": 62,
+		"locations": [
+			"Karuulm Slayer Dungeon"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Draconic"
+		],
+		"attackStyles": [
+			"Melee",
+			"Magical ranged"
+		],
+		"alternatives": [
+			"None"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	},
+	{
+		"monster": "Zombies",
+		"slayerLevel": 1,
+		"locations": [
+			"Tree Gnome Village dungeon",
+			"Entrana Dungeon",
+			"Edgeville Dungeon",
+			"Graveyard of Shadows",
+			"Stronghold of Security",
+			"Varrock Sewers",
+			"Wizards' Guild basement",
+			"Draynor Sewers",
+			"Lair of Tarn Razorlor"
+		],
+		"itemsRequired": [
+			{
+				"name": "None",
+				"icon": null
+			}
+		],
+		"attributes": [
+			"Undead"
+		],
+		"attackStyles": [
+			"Melee"
+		],
+		"alternatives": [
+			"Any zombie-class except Zogres and Zombie monkeys"
+		],
+		"slayerMasters": [
+			"Krystilia",
+			"Turael",
+			"Mazchna"
+		]
+	},
+	{
+		"monster": "Zygomites",
+		"slayerLevel": 57,
+		"locations": [
+			"Fossil Island",
+			"Zanaris"
+		],
+		"itemsRequired": [
+			{
+				"name": "Fungicide spray",
+				"icon": "Fungicide spray.png"
+			},
+			{
+				"name": "Fungicide",
+				"icon": "Fungicide.png"
+			}
+		],
+		"attributes": [
+			"None"
+		],
+		"attackStyles": [
+			"Magical melee",
+			"Magical ranged"
+		],
+		"alternatives": [
+			"Ancient Zygomite"
+		],
+		"slayerMasters": [
+			"Chaeldar",
+			"Konar quo Maten",
+			"Nieve",
+			"Duradel"
+		]
+	}
+]
