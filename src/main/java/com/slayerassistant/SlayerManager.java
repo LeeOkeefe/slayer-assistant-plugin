@@ -15,6 +15,13 @@ public class SlayerManager
         slayerTasks = dataLoader.load();
     }
 
+    public Collection<SlayerTask> getAllSlayerTasks()
+    {
+        return slayerTasks.stream()
+                          .sorted(Comparator.comparing(s -> s.monster))
+                          .collect(Collectors.toCollection(ArrayList::new));
+    }
+
     public Collection<SlayerTask> getSlayerTasksByPartialName(String monster)
     {
         return slayerTasks.stream()
