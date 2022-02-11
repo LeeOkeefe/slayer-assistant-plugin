@@ -13,7 +13,6 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.stream.Collectors;
 
 public class SlayerDataLoader implements DataLoader<Collection<SlayerTask>>
@@ -54,11 +53,9 @@ public class SlayerDataLoader implements DataLoader<Collection<SlayerTask>>
 
         SlayerTaskJsonBinding[] bindings = gson.fromJson(bufferedReader, SlayerTaskJsonBinding[].class);
 
-        ArrayList<SlayerTask> slayerTasks = Arrays.stream(bindings)
-                                                  .map(this::toDomain)
-                                                  .collect(Collectors.toCollection(ArrayList::new));
-
-        return Collections.unmodifiableCollection(slayerTasks);
+        return Arrays.stream(bindings)
+                     .map(this::toDomain)
+                     .collect(Collectors.toCollection(ArrayList::new));
     }
 
     private SlayerTask toDomain(SlayerTaskJsonBinding binding)
