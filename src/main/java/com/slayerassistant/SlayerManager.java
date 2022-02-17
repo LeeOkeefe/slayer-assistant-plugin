@@ -25,14 +25,14 @@ public class SlayerManager
     public Collection<SlayerTask> getSlayerTasksByPartialName(String monster)
     {
         return slayerTasks.stream()
-                          .filter(slayerTask -> slayerTask.monster.contains(monster))
+                          .filter(slayerTask -> slayerTask.monster.toLowerCase().contains(monster.toLowerCase()))
                           .collect(Collectors.toCollection(ArrayList::new));
     }
 
     public SlayerTask getSlayerTaskByName(String monster)
     {
         return slayerTasks.stream()
-                          .filter(slayerTask -> Objects.equals(slayerTask.monster, monster))
+                          .filter(slayerTask -> Objects.equals(slayerTask.monster.toLowerCase(), monster.toLowerCase()))
                           .findFirst()
                           .orElse(null);
     }
