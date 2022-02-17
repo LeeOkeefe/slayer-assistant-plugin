@@ -13,6 +13,7 @@ public class ItemTest
     public void itemCannotBeConstructedWithNullName()
     {
         exception.expect(NullPointerException.class);
+        exception.expectMessage("name cannot be null");
 
         new Item(null, "icon");
     }

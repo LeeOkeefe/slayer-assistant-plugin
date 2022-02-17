@@ -4,12 +4,12 @@ import java.util.Objects;
 
 public class Item
 {
-    public final String item;
+    public final String name;
     public final String icon;
 
-    public Item(String item, String icon)
+    public Item(String name, String icon)
     {
-        this.item = Objects.requireNonNull(item);
+        this.name = Objects.requireNonNull(name, "item name cannot be null");
         this.icon = icon;
     }
 }
