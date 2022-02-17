@@ -135,7 +135,7 @@
 		]
 	},
 	{
-		"monster": "Aviansie [note 1]",
+		"monster": "Aviansie",
 		"slayerLevel": 1,
 		"locations": [
 			"God Wars Dungeon"
@@ -228,7 +228,7 @@
 		]
 	},
 	{
-		"monster": "Basilisks [note 2]",
+		"monster": "Basilisks",
 		"slayerLevel": 40,
 		"locations": [
 			"Fremennik Slayer Dungeon"
@@ -2106,7 +2106,7 @@
 		]
 	},
 	{
-		"monster": "Lizardmen [note 1]",
+		"monster": "Lizardmen",
 		"slayerLevel": 1,
 		"locations": [
 			"Lizardmen Settlement",
@@ -2218,7 +2218,7 @@
 		]
 	},
 	{
-		"monster": "Mithril dragons [note 1]",
+		"monster": "Mithril dragons",
 		"slayerLevel": 1,
 		"locations": [
 			"Ancient Cavern"
@@ -2572,7 +2572,7 @@
 		]
 	},
 	{
-		"monster": "Red dragons [note 1]",
+		"monster": "Red dragons",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -3270,7 +3270,7 @@
 		]
 	},
 	{
-		"monster": "Vampyres [note 3]",
+		"monster": "Vampyres",
 		"slayerLevel": 1,
 		"locations": [
 			"God Wars Dungeon",
