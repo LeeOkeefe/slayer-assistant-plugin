@@ -1,6 +1,6 @@
 [
 	{
-		"monster": "Aberrant spectres",
+		"monster": "Aberrant spectre",
 		"slayerLevel": 60,
 		"locations": [
 			"Slayer Tower",
@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"monster": "Abyssal demons",
+		"monster": "Abyssal demon",
 		"slayerLevel": 85,
 		"locations": [
 			"Slayer Tower",
@@ -64,7 +64,7 @@
 		]
 	},
 	{
-		"monster": "Adamant dragons",
+		"monster": "Adamant dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Lithkren Vault"
@@ -103,7 +103,7 @@
 		]
 	},
 	{
-		"monster": "Ankous",
+		"monster": "Ankou",
 		"slayerLevel": 1,
 		"locations": [
 			"Stronghold of Security",
@@ -171,7 +171,7 @@
 		]
 	},
 	{
-		"monster": "Bandits",
+		"monster": "Bandit",
 		"slayerLevel": 1,
 		"locations": [
 			"Bandit Camp"
@@ -196,7 +196,7 @@
 		]
 	},
 	{
-		"monster": "Banshees",
+		"monster": "Banshee",
 		"slayerLevel": 15,
 		"locations": [
 			"Slayer Tower"
@@ -228,7 +228,7 @@
 		]
 	},
 	{
-		"monster": "Basilisks",
+		"monster": "Basilisk",
 		"slayerLevel": 40,
 		"locations": [
 			"Fremennik Slayer Dungeon"
@@ -261,7 +261,7 @@
 		]
 	},
 	{
-		"monster": "Bats",
+		"monster": "Bat",
 		"slayerLevel": 1,
 		"locations": [
 			"Paterdomus",
@@ -291,7 +291,7 @@
 		]
 	},
 	{
-		"monster": "Bears",
+		"monster": "Bear",
 		"slayerLevel": 1,
 		"locations": [
 			"East Ardougne",
@@ -322,7 +322,7 @@
 		]
 	},
 	{
-		"monster": "Birds",
+		"monster": "Bird",
 		"slayerLevel": 1,
 		"locations": [
 			"Across west Lumbridge bridge",
@@ -356,7 +356,7 @@
 		]
 	},
 	{
-		"monster": "Black demons",
+		"monster": "Black demon",
 		"slayerLevel": 1,
 		"locations": [
 			"Taverley Dungeon",
@@ -391,7 +391,7 @@
 		]
 	},
 	{
-		"monster": "Black dragons",
+		"monster": "Black dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Taverley Dungeon",
@@ -433,7 +433,7 @@
 		]
 	},
 	{
-		"monster": "Black Knights",
+		"monster": "Black Knight",
 		"slayerLevel": 1,
 		"locations": [
 			"Lava Maze",
@@ -459,7 +459,7 @@
 		]
 	},
 	{
-		"monster": "Bloodvelds",
+		"monster": "Bloodveld",
 		"slayerLevel": 50,
 		"locations": [
 			"Slayer Tower",
@@ -492,7 +492,7 @@
 		]
 	},
 	{
-		"monster": "Blue dragons",
+		"monster": "Blue dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Taverley Dungeon",
@@ -536,7 +536,7 @@
 		]
 	},
 	{
-		"monster": "Brine rats",
+		"monster": "Brine rat",
 		"slayerLevel": 47,
 		"locations": [
 			"Brine Rat Cavern"
@@ -564,7 +564,7 @@
 		]
 	},
 	{
-		"monster": "Bronze dragons",
+		"monster": "Bronze dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -629,7 +629,7 @@
 		]
 	},
 	{
-		"monster": "Cave bugs",
+		"monster": "Cave bug",
 		"slayerLevel": 7,
 		"locations": [
 			"Lumbridge Swamp Caves",
@@ -657,7 +657,7 @@
 		]
 	},
 	{
-		"monster": "Cave crawlers",
+		"monster": "Cave crawler",
 		"slayerLevel": 10,
 		"locations": [
 			"Fremennik Slayer Dungeon",
@@ -688,7 +688,7 @@
 		]
 	},
 	{
-		"monster": "Cave horrors",
+		"monster": "Cave horror",
 		"slayerLevel": 58,
 		"locations": [
 			"Mos Le'Harmless Cave"
@@ -720,7 +720,7 @@
 		]
 	},
 	{
-		"monster": "Cave slimes",
+		"monster": "Cave slime",
 		"slayerLevel": 17,
 		"locations": [
 			"Lumbridge Swamp Caves",
@@ -778,7 +778,7 @@
 		]
 	},
 	{
-		"monster": "Chaos druids",
+		"monster": "Chaos druid",
 		"slayerLevel": 1,
 		"locations": [
 			"Edgeville Dungeon",
@@ -804,7 +804,7 @@
 		]
 	},
 	{
-		"monster": "Cockatrices",
+		"monster": "Cockatrice",
 		"slayerLevel": 25,
 		"locations": [
 			"Fremennik Slayer Dungeon"
@@ -834,7 +834,7 @@
 		]
 	},
 	{
-		"monster": "Cows",
+		"monster": "Cow",
 		"slayerLevel": 1,
 		"locations": [
 			"South of Falador",
@@ -862,7 +862,7 @@
 		]
 	},
 	{
-		"monster": "Crawling Hands",
+		"monster": "Crawling Hand",
 		"slayerLevel": 5,
 		"locations": [
 			"Slayer Tower"
@@ -889,7 +889,7 @@
 		]
 	},
 	{
-		"monster": "Crocodiles",
+		"monster": "Crocodile",
 		"slayerLevel": 1,
 		"locations": [
 			"Near Elid",
@@ -915,7 +915,7 @@
 		]
 	},
 	{
-		"monster": "Dagannoths",
+		"monster": "Dagannoth",
 		"slayerLevel": 1,
 		"locations": [
 			"Lighthouse",
@@ -951,7 +951,7 @@
 		]
 	},
 	{
-		"monster": "Dark beasts",
+		"monster": "Dark beast",
 		"slayerLevel": 90,
 		"locations": [
 			"Path to Temple of Light ( Mourner tunnels )",
@@ -980,7 +980,7 @@
 		]
 	},
 	{
-		"monster": "Dark warriors",
+		"monster": "Dark warrior",
 		"slayerLevel": 1,
 		"locations": [
 			"Dark Warriors' Fortress"
@@ -1005,7 +1005,7 @@
 		]
 	},
 	{
-		"monster": "Dogs",
+		"monster": "Dog",
 		"slayerLevel": 1,
 		"locations": [
 			"Ardougne",
@@ -1037,7 +1037,7 @@
 		]
 	},
 	{
-		"monster": "Drakes",
+		"monster": "Drake",
 		"slayerLevel": 84,
 		"locations": [
 			"Karuulm Slayer Dungeon"
@@ -1076,7 +1076,7 @@
 		]
 	},
 	{
-		"monster": "Dust devils",
+		"monster": "Dust devil",
 		"slayerLevel": 65,
 		"locations": [
 			"Smoke Dungeon",
@@ -1110,7 +1110,7 @@
 		]
 	},
 	{
-		"monster": "Dwarves",
+		"monster": "Dwarf",
 		"slayerLevel": 1,
 		"locations": [
 			"Ice Mountain",
@@ -1141,7 +1141,7 @@
 		]
 	},
 	{
-		"monster": "Earth Warriors",
+		"monster": "Earth Warrior",
 		"slayerLevel": 1,
 		"locations": [
 			"Edgeville Dungeon"
@@ -1168,7 +1168,7 @@
 		]
 	},
 	{
-		"monster": "Elves",
+		"monster": "Elf",
 		"slayerLevel": 1,
 		"locations": [
 			"Lletya",
@@ -1223,7 +1223,7 @@
 		]
 	},
 	{
-		"monster": "Fever spiders",
+		"monster": "Fever spider",
 		"slayerLevel": 42,
 		"locations": [
 			"Braindeath Island (brewery basement)"
@@ -1249,7 +1249,7 @@
 		]
 	},
 	{
-		"monster": "Fire giants",
+		"monster": "Fire giant",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -1284,7 +1284,7 @@
 		]
 	},
 	{
-		"monster": "Flesh Crawlers",
+		"monster": "Flesh Crawler",
 		"slayerLevel": 1,
 		"locations": [
 			"Stronghold of Security (level 2)"
@@ -1354,7 +1354,7 @@
 		]
 	},
 	{
-		"monster": "Gargoyles",
+		"monster": "Gargoyle",
 		"slayerLevel": 75,
 		"locations": [
 			"Slayer Tower"
@@ -1387,7 +1387,7 @@
 		]
 	},
 	{
-		"monster": "Ghosts",
+		"monster": "Ghost",
 		"slayerLevel": 1,
 		"locations": [
 			"Varrock Sewers",
@@ -1425,7 +1425,7 @@
 		]
 	},
 	{
-		"monster": "Ghouls",
+		"monster": "Ghoul",
 		"slayerLevel": 1,
 		"locations": [
 			"West of Canifis"
@@ -1451,7 +1451,7 @@
 		]
 	},
 	{
-		"monster": "Goblins",
+		"monster": "Goblin",
 		"slayerLevel": 1,
 		"locations": [
 			"Lumbridge Caves",
@@ -1491,7 +1491,7 @@
 		]
 	},
 	{
-		"monster": "Greater demons",
+		"monster": "Greater demon",
 		"slayerLevel": 1,
 		"locations": [
 			"Entrana Dungeon",
@@ -1528,7 +1528,7 @@
 		]
 	},
 	{
-		"monster": "Green dragons",
+		"monster": "Green dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"West of the Dark Warriors' Fortress",
@@ -1570,7 +1570,7 @@
 		]
 	},
 	{
-		"monster": "Harpie bug swarms",
+		"monster": "Harpie bug swarm",
 		"slayerLevel": 33,
 		"locations": [
 			"Karamja"
@@ -1596,7 +1596,7 @@
 		]
 	},
 	{
-		"monster": "Hellhounds",
+		"monster": "Hellhound",
 		"slayerLevel": 1,
 		"locations": [
 			"Taverley Dungeon",
@@ -1669,7 +1669,7 @@
 		]
 	},
 	{
-		"monster": "Hobgoblins",
+		"monster": "Hobgoblin",
 		"slayerLevel": 1,
 		"locations": [
 			"Asgarnian Ice Dungeon",
@@ -1706,7 +1706,7 @@
 		]
 	},
 	{
-		"monster": "Hydras",
+		"monster": "Hydra",
 		"slayerLevel": 95,
 		"locations": [
 			"Karuulm Slayer Dungeon"
@@ -1731,7 +1731,7 @@
 		]
 	},
 	{
-		"monster": "Icefiends",
+		"monster": "Icefiend",
 		"slayerLevel": 1,
 		"locations": [
 			"Ice Mountain",
@@ -1760,7 +1760,7 @@
 		]
 	},
 	{
-		"monster": "Ice giants",
+		"monster": "Ice giant",
 		"slayerLevel": 1,
 		"locations": [
 			"Asgarnian Ice Caves",
@@ -1788,7 +1788,7 @@
 		]
 	},
 	{
-		"monster": "Ice warriors",
+		"monster": "Ice warrior",
 		"slayerLevel": 1,
 		"locations": [
 			"White Wolf Mountain",
@@ -1817,7 +1817,7 @@
 		]
 	},
 	{
-		"monster": "Infernal Mages",
+		"monster": "Infernal Mage",
 		"slayerLevel": 45,
 		"locations": [
 			"Slayer tower"
@@ -1843,7 +1843,7 @@
 		]
 	},
 	{
-		"monster": "Iron dragons",
+		"monster": "Iron dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -1882,7 +1882,7 @@
 		]
 	},
 	{
-		"monster": "Jellies",
+		"monster": "Jelly",
 		"slayerLevel": 52,
 		"locations": [
 			"Fremennik Slayer Dungeon"
@@ -1909,7 +1909,7 @@
 		]
 	},
 	{
-		"monster": "Jungle horrors",
+		"monster": "Jungle horror",
 		"slayerLevel": 1,
 		"locations": [
 			"Mos Le'Harmless"
@@ -1935,7 +1935,7 @@
 		]
 	},
 	{
-		"monster": "Kalphites",
+		"monster": "Kalphite",
 		"slayerLevel": 1,
 		"locations": [
 			"Kalphite Lair",
@@ -1970,7 +1970,7 @@
 		]
 	},
 	{
-		"monster": "Killerwatts",
+		"monster": "Killerwatt",
 		"slayerLevel": 37,
 		"locations": [
 			"Killerwatt plane"
@@ -1997,7 +1997,7 @@
 		]
 	},
 	{
-		"monster": "Kurasks",
+		"monster": "Kurask",
 		"slayerLevel": 70,
 		"locations": [
 			"Fremennik Slayer Dungeon",
@@ -2038,7 +2038,7 @@
 		]
 	},
 	{
-		"monster": "Lava dragons",
+		"monster": "Lava dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Lava Dragon Isle"
@@ -2073,7 +2073,7 @@
 		]
 	},
 	{
-		"monster": "Lesser demons",
+		"monster": "Lesser demon",
 		"slayerLevel": 1,
 		"locations": [
 			"Wizards' Tower",
@@ -2137,7 +2137,7 @@
 		]
 	},
 	{
-		"monster": "Lizards",
+		"monster": "Lizard",
 		"slayerLevel": 22,
 		"locations": [
 			"Kharidian Desert"
@@ -2168,7 +2168,7 @@
 		]
 	},
 	{
-		"monster": "Magic axes",
+		"monster": "Magic axe",
 		"slayerLevel": 1,
 		"locations": [
 			"Magic Axe Hut"
@@ -2218,7 +2218,7 @@
 		]
 	},
 	{
-		"monster": "Mithril dragons",
+		"monster": "Mithril dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Ancient Cavern"
@@ -2257,7 +2257,7 @@
 		]
 	},
 	{
-		"monster": "Minotaurs",
+		"monster": "Minotaur",
 		"slayerLevel": 1,
 		"locations": [
 			"Stronghold of Security"
@@ -2282,7 +2282,7 @@
 		]
 	},
 	{
-		"monster": "Mogres",
+		"monster": "Mogre",
 		"slayerLevel": 32,
 		"locations": [
 			"Mudskipper Point"
@@ -2308,7 +2308,7 @@
 		]
 	},
 	{
-		"monster": "Molanisks",
+		"monster": "Molanisk",
 		"slayerLevel": 39,
 		"locations": [
 			"Dorgesh-Kaan South Dungeon"
@@ -2333,7 +2333,7 @@
 		]
 	},
 	{
-		"monster": "Monkeys",
+		"monster": "Monkey",
 		"slayerLevel": 1,
 		"locations": [
 			"Karamja",
@@ -2362,7 +2362,7 @@
 		]
 	},
 	{
-		"monster": "Moss giants",
+		"monster": "Moss giant",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -2425,7 +2425,7 @@
 		]
 	},
 	{
-		"monster": "Ogres",
+		"monster": "Ogre",
 		"slayerLevel": 1,
 		"locations": [
 			"Gu'Tanoth",
@@ -2463,7 +2463,7 @@
 		]
 	},
 	{
-		"monster": "Otherworldly beings",
+		"monster": "Otherworldly being",
 		"slayerLevel": 1,
 		"locations": [
 			"Zanaris"
@@ -2513,7 +2513,7 @@
 		]
 	},
 	{
-		"monster": "Pyrefiends",
+		"monster": "Pyrefiend",
 		"slayerLevel": 30,
 		"locations": [
 			"Fremennik Slayer Dungeon",
@@ -2543,7 +2543,7 @@
 		]
 	},
 	{
-		"monster": "Rats",
+		"monster": "Rat",
 		"slayerLevel": 1,
 		"locations": [
 			"Throughout Gielinor"
@@ -2572,7 +2572,7 @@
 		]
 	},
 	{
-		"monster": "Red dragons",
+		"monster": "Red dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -2611,7 +2611,7 @@
 		]
 	},
 	{
-		"monster": "Revenants",
+		"monster": "Revenant",
 		"slayerLevel": 1,
 		"locations": [
 			"Revenant Caves"
@@ -2638,7 +2638,7 @@
 		]
 	},
 	{
-		"monster": "Rockslugs",
+		"monster": "Rockslug",
 		"slayerLevel": 20,
 		"locations": [
 			"Fremennik Slayer Dungeon",
@@ -2666,7 +2666,7 @@
 		]
 	},
 	{
-		"monster": "Rogues",
+		"monster": "Rogue",
 		"slayerLevel": 1,
 		"locations": [
 			"Rogues' Castle",
@@ -2692,7 +2692,7 @@
 		]
 	},
 	{
-		"monster": "Rune Dragons",
+		"monster": "Rune Dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Lithkren"
@@ -2731,7 +2731,7 @@
 		]
 	},
 	{
-		"monster": "Scabarites",
+		"monster": "Scabarite",
 		"slayerLevel": 1,
 		"locations": [
 			"Dungeon under Sophanem",
@@ -2761,7 +2761,7 @@
 		]
 	},
 	{
-		"monster": "Scorpions",
+		"monster": "Scorpion",
 		"slayerLevel": 1,
 		"locations": [
 			"Al-Kharid Mine",
@@ -2798,7 +2798,7 @@
 		]
 	},
 	{
-		"monster": "Sea snakes",
+		"monster": "Sea snake",
 		"slayerLevel": 1,
 		"locations": [
 			"Miscellania & Etceteria Dungeon"
@@ -2825,7 +2825,7 @@
 		]
 	},
 	{
-		"monster": "Shades",
+		"monster": "Shade",
 		"slayerLevel": 1,
 		"locations": [
 			"Mort'ton",
@@ -2858,7 +2858,7 @@
 		]
 	},
 	{
-		"monster": "Shadow warriors",
+		"monster": "Shadow warrior",
 		"slayerLevel": 1,
 		"locations": [
 			"Legends' Guild basement"
@@ -2884,7 +2884,7 @@
 		]
 	},
 	{
-		"monster": "Skeletal Wyverns",
+		"monster": "Skeletal Wyvern",
 		"slayerLevel": 72,
 		"locations": [
 			"Asgarnian Ice Dungeon"
@@ -2921,7 +2921,7 @@
 		]
 	},
 	{
-		"monster": "Skeletons",
+		"monster": "Skeleton",
 		"slayerLevel": 1,
 		"locations": [
 			"Edgeville Dungeon",
@@ -2963,7 +2963,7 @@
 		]
 	},
 	{
-		"monster": "Smoke devils",
+		"monster": "Smoke devil",
 		"slayerLevel": 93,
 		"locations": [
 			"Smoke Devil Dungeon"
@@ -2995,7 +2995,7 @@
 		]
 	},
 	{
-		"monster": "Sourhogs",
+		"monster": "Sourhog",
 		"slayerLevel": 1,
 		"locations": [
 			"Sourhog Cave"
@@ -3025,7 +3025,7 @@
 		]
 	},
 	{
-		"monster": "Spiders",
+		"monster": "Spider",
 		"slayerLevel": 1,
 		"locations": [
 			"Melzar's Maze",
@@ -3070,7 +3070,7 @@
 		]
 	},
 	{
-		"monster": "Spiritual creatures",
+		"monster": "Spiritual creature",
 		"slayerLevel": 1,
 		"locations": [
 			"God Wars Dungeon",
@@ -3100,7 +3100,7 @@
 		]
 	},
 	{
-		"monster": "Steel dragons",
+		"monster": "Steel dragon",
 		"slayerLevel": 1,
 		"locations": [
 			"Brimhaven Dungeon",
@@ -3139,7 +3139,7 @@
 		]
 	},
 	{
-		"monster": "Suqahs",
+		"monster": "Suqah",
 		"slayerLevel": 1,
 		"locations": [
 			"Lunar Isle"
@@ -3166,7 +3166,7 @@
 		]
 	},
 	{
-		"monster": "Terror dogs",
+		"monster": "Terror dog",
 		"slayerLevel": 40,
 		"locations": [
 			"Tarn's Lair"
@@ -3191,7 +3191,7 @@
 		]
 	},
 	{
-		"monster": "Trolls",
+		"monster": "Troll",
 		"slayerLevel": 1,
 		"locations": [
 			"Trollheim",
@@ -3230,7 +3230,7 @@
 		]
 	},
 	{
-		"monster": "Turoths",
+		"monster": "Turoth",
 		"slayerLevel": 55,
 		"locations": [
 			"Fremennik Slayer Dungeon"
@@ -3270,7 +3270,7 @@
 		]
 	},
 	{
-		"monster": "Vampyres",
+		"monster": "Vampyre",
 		"slayerLevel": 1,
 		"locations": [
 			"God Wars Dungeon",
@@ -3299,7 +3299,7 @@
 		]
 	},
 	{
-		"monster": "Wall beasts",
+		"monster": "Wall beast",
 		"slayerLevel": 35,
 		"locations": [
 			"Lumbridge Swamp Caves"
@@ -3330,7 +3330,7 @@
 		]
 	},
 	{
-		"monster": "Waterfiends",
+		"monster": "Waterfiend",
 		"slayerLevel": 1,
 		"locations": [
 			"Ancient Cavern",
@@ -3358,7 +3358,7 @@
 		]
 	},
 	{
-		"monster": "Werewolves",
+		"monster": "Werewolf",
 		"slayerLevel": 1,
 		"locations": [
 			"Canifis",
@@ -3385,7 +3385,7 @@
 		]
 	},
 	{
-		"monster": "Wolves",
+		"monster": "Wolf",
 		"slayerLevel": 1,
 		"locations": [
 			"Stronghold of Security",
@@ -3417,7 +3417,7 @@
 		]
 	},
 	{
-		"monster": "Wyrms",
+		"monster": "Wyrm",
 		"slayerLevel": 62,
 		"locations": [
 			"Karuulm Slayer Dungeon"
@@ -3446,7 +3446,7 @@
 		]
 	},
 	{
-		"monster": "Zombies",
+		"monster": "Zombie",
 		"slayerLevel": 1,
 		"locations": [
 			"Tree Gnome Village dungeon",
@@ -3481,7 +3481,7 @@
 		]
 	},
 	{
-		"monster": "Zygomites",
+		"monster": "Zygomite",
 		"slayerLevel": 57,
 		"locations": [
 			"Fossil Island",
