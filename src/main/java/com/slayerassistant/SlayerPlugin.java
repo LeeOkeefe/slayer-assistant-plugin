@@ -1,16 +1,15 @@
 package com.slayerassistant;
 
-import com.google.inject.Provides;
-import javax.inject.Inject;
+import com.slayerassistant.utils.ImageUtils;
 import lombok.extern.slf4j.Slf4j;
-import net.runelite.api.ChatMessageType;
-import net.runelite.api.Client;
-import net.runelite.api.GameState;
-import net.runelite.api.events.GameStateChanged;
-import net.runelite.client.config.ConfigManager;
-import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
+import net.runelite.client.ui.ClientToolbar;
+import net.runelite.client.ui.NavigationButton;
+
+import javax.inject.Inject;
+import javax.swing.*;
+import java.awt.image.BufferedImage;
 
 @Slf4j
 @PluginDescriptor(
@@ -19,35 +18,37 @@ import net.runelite.client.plugins.PluginDescriptor;
 public class SlayerPlugin extends Plugin
 {
 	@Inject
-	private Client client;
+	private ClientToolbar clientToolbar;
 
-	@Inject
-	private SlayerConfig config;
-
-	@Override
-	protected void startUp() throws Exception
-	{
-		log.info("Example started!");
-	}
+	private SlayerPluginPanel slayerPanel;
+	private NavigationButton navButton;
 
 	@Override
-	protected void shutDown() throws Exception
+	protected void startUp()
 	{
-		log.info("Example stopped!");
+		slayerPanel = injector.getInstance(SlayerPluginPanel.class);
+
+		navButton = getNavButton();
+
+		clientToolbar.addNavigation(navButton);
 	}
 
-	@Subscribe
-	public void onGameStateChanged(GameStateChanged gameStateChanged)
+	@Override
+	protected void shutDown()
 	{
-		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
-		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
-		}
+		clientToolbar.removeNavigation(navButton);
 	}
 
-	@Provides
-	SlayerConfig provideConfig(ConfigManager configManager)
+	private NavigationButton getNavButton()
 	{
-		return configManager.getConfig(SlayerConfig.class);
+		ImageIcon icon = ImageUtils.load("slayer_icon.png");
+		BufferedImage bufferedImage = ImageUtils.convertImageIconToBufferedImage(icon);
+
+		return NavigationButton.builder()
+				.tooltip("Slayer assistant")
+				.icon(bufferedImage)
+				.priority(5)
+				.panel(slayerPanel)
+				.build();
 	}
 }
