@@ -9,11 +9,11 @@ import java.util.Objects;
 public class TabView
 {
     @Getter
-    private final JTabbedPane tabbedPane;
+    private final JTabbedPane tabbedPane = new JTabbedPane();
 
     public TabView()
     {
-        tabbedPane = new JTabbedPane();
+        tabbedPane.setPreferredSize(new Dimension(100, 200));
     }
 
     public void addTab(Tab tab)
