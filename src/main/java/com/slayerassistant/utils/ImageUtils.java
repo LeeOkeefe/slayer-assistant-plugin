@@ -30,4 +30,12 @@ public class ImageUtils
 
         return buffered;
     }
+
+    public static ImageIcon resize(ImageIcon imageIcon, int width, int height)
+    {
+        Image image = imageIcon.getImage();
+        Image resized = image.getScaledInstance(width, height,  java.awt.Image.SCALE_SMOOTH);
+
+        return new ImageIcon(resized);
+    }
 }
