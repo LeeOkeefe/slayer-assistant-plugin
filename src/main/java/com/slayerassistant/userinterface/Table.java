@@ -9,6 +9,8 @@ import javax.swing.border.Border;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Table
 {
@@ -72,33 +74,33 @@ public class Table
 
     private void populateRows(DefaultTableModel model)
     {
-        int rows = getNumberOfRows(data);
+        Object[] largest = getLargestDataset(data);
 
-        for(int i = 0; i < rows; i++)
+        for (int i = 0; i < largest.length; i++)
         {
-            Object[] data = new Object[rows];
+            ArrayList<Object> row = new ArrayList<>();
 
-            for(int j = 0; j < this.data.length; j++)
+            for (Object[] datum : data)
             {
-                data[j] = i > this.data[j].length - 1 ? "" : this.data[j][i];
+                row.add(i > datum.length - 1 ? "" : datum[i]);
             }
 
-            model.addRow(data);
+            model.addRow(row.toArray());
         }
     }
 
-    private int getNumberOfRows(Object[]... balls)
+    private Object[] getLargestDataset(Object[][] datasets)
     {
-        int rows = balls[0].length;
+        Object[] largest = datasets[0];
 
-        for(Object[] dataset : balls)
+        for (Object[] dataset : datasets)
         {
-            if (dataset.length > rows)
+            if (dataset.length > largest.length)
             {
-                rows = dataset.length;
+                largest = dataset;
             }
         }
 
-        return rows;
+        return largest;
     }
 }
