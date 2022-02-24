@@ -65,7 +65,8 @@ public class SlayerPluginPanel extends PluginPanel
         add(createHeader(task.monster));
         add(createTabView(task).getTabbedPane());
         JButton closeButton = new JButton("Close");
-        closeButton.addActionListener(e -> {
+        closeButton.addActionListener(e ->
+        {
             closeTask();
             remove(closeButton);
         });
