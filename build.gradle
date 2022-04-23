@@ -22,7 +22,7 @@ dependencies {
 	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
 	testImplementation group: 'net.runelite', name:'jshell', version: runeLiteVersion
 
-	testCompile "org.mockito:mockito-core:4.3.1"
+	testImplementation "org.mockito:mockito-core:4.3.1"
 }
 
 group = 'com.example'
