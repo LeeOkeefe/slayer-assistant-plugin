@@ -11,8 +11,6 @@ import net.runelite.client.ui.PluginPanel;
 import javax.annotation.Nullable;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.Collection;

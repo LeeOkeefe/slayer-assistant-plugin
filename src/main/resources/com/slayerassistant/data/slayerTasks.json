@@ -1048,12 +1048,8 @@
 				"icon": "Boots of stone.png"
 			},
 			{
-				"name": ", Boots of brimstone",
-				"icon": ", Boots of brimstone.png"
-			},
-			{
-				"name": ",",
-				"icon": ",.png"
+				"name": "Boots of brimstone",
+				"icon": "Boots of brimstone.png"
 			},
 			{
 				"name": "Granite boots",
@@ -1721,7 +1717,9 @@
 			"Draconic"
 		],
 		"attackStyles": [
-			"Magic, Ranged, Poison"
+			"Magic",
+			"Ranged",
+			"Poison"
 		],
 		"alternatives": [
 			"Alchemical Hydra"
