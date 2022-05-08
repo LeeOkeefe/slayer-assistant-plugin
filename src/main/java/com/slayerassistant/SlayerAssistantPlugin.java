@@ -13,11 +13,11 @@ import java.awt.image.BufferedImage;
 @PluginDescriptor(
 	name = "Slayer Assistant"
 )
-public class SlayerPlugin extends Plugin
+public class SlayerAssistantPlugin extends Plugin
 {
 	@Inject
 	private ClientToolbar clientToolbar;
-
+	
 	private SlayerPluginPanel slayerPanel;
 	private NavigationButton navButton;
 
