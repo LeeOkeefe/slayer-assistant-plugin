@@ -1,6 +1,5 @@
 package com.slayerassistant.data;
 
-import com.slayerassistant.domain.Item;
 import com.slayerassistant.domain.SlayerTask;
 import org.junit.Assert;
 import org.junit.Rule;
@@ -28,19 +27,5 @@ public class SlayerDataLoaderTest
 
         Assert.assertThat(tasks, not(empty()));
         Assert.assertThat(tasks, not(nullValue()));
-    }
-
-    @Test
-    public void loadReturnsImmutableCollectionThatThrowsExceptionWhenModified() throws FileNotFoundException
-    {
-        exception.expect(UnsupportedOperationException.class);
-
-        SlayerDataLoader dataLoader = new SlayerDataLoader();
-
-        Collection<SlayerTask> tasks = dataLoader.load();
-
-        String[] strings = new String[]{};
-
-        tasks.add(new SlayerTask("monster", 1, strings, new Item[]{}, strings, strings, strings, strings));
     }
 }
