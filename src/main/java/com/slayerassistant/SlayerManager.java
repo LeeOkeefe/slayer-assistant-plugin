@@ -12,7 +12,7 @@ public class SlayerManager
 
     public SlayerManager(SlayerDataLoader dataLoader)
     {
-        slayerTasks = dataLoader.load();
+        slayerTasks = Objects.requireNonNull(dataLoader.load());
     }
 
     public Collection<SlayerTask> getAllSlayerTasks()
