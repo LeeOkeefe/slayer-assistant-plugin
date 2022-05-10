@@ -24,7 +24,7 @@ public class SlayerPluginPanel extends PluginPanel
     private final SelectList<SlayerTask> slayerTasksList;
     private final SearchBar searchBar;
 
-    private final String[] tabIcons = new String[] {"compass.png", "inventory.png", "combat.png", "slayer_icon.png"};
+    private final String[] tabImageNamesWithExtensions = new String[] {"compass.png", "inventory.png", "combat.png", "slayer_icon.png"};
     private final String[] tableHeaders = new String[] {"Attack styles", "Attributes"};
 
     @Inject
@@ -108,9 +108,9 @@ public class SlayerPluginPanel extends PluginPanel
         TabView tabView = new TabView();
 
         ArrayList<ImageIcon> icons = new ArrayList<>();
-        for(String iconPath : tabIcons)
+        for(String imageNameWithExtension : tabImageNamesWithExtensions)
         {
-            BufferedImage image = ImageUtil.loadImageResource(getClass(), String.format("/images/%s", iconPath));
+            BufferedImage image = ImageUtil.loadImageResource(getClass(), String.format("/images/%s", imageNameWithExtension));
             ImageIcon imageIcon = new ImageIcon(image);
             icons.add(imageIcon);
         }
