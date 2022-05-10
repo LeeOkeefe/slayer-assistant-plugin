@@ -5,13 +5,15 @@ import com.slayerassistant.data.SlayerDataLoader;
 import com.slayerassistant.domain.SlayerTask;
 import com.slayerassistant.userinterface.TextArea;
 import com.slayerassistant.userinterface.*;
-import com.slayerassistant.utils.ImageUtils;
 import net.runelite.client.ui.PluginPanel;
+import net.runelite.client.util.ImageUtil;
 
 import javax.annotation.Nullable;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Objects;
@@ -82,13 +84,15 @@ public class SlayerPluginPanel extends PluginPanel
     {
         Font font = new Font(Font.SANS_SERIF, Font.PLAIN, 15);
 
-        String fileName = String.format("monsters/%s", monster.replace(" ", "_").concat(".png"));
+        String fileName = String.format("/images/monsters/%s", monster.replace(" ", "_").concat(".png"));
 
         ImageIcon imageIcon;
         try
         {
-            ImageIcon img = ImageUtils.load(fileName);
-            imageIcon = ImageUtils.resize(img, img.getIconWidth() / 2, img.getIconHeight() / 2);
+            BufferedImage img = ImageUtil.loadImageResource(getClass(), fileName);
+            BufferedImage resizedImg = ImageUtil.resizeImage(img, img.getWidth() / 2, img.getHeight() / 2);
+
+            imageIcon = new ImageIcon(resizedImg);
         }
         catch (NullPointerException e)
         {
@@ -103,7 +107,13 @@ public class SlayerPluginPanel extends PluginPanel
     {
         TabView tabView = new TabView();
 
-        ImageIcon[] icons = Arrays.stream(tabIcons).map(ImageUtils::load).toArray(ImageIcon[]::new);
+        ArrayList<ImageIcon> icons = new ArrayList<>();
+        for(String iconPath : tabIcons)
+        {
+            BufferedImage image = ImageUtil.loadImageResource(getClass(), String.format("/images/%s", iconPath));
+            ImageIcon imageIcon = new ImageIcon(image);
+            icons.add(imageIcon);
+        }
 
         String locations = convertStringsToLineSeparatedString(task.locations);
         String masters = convertStringsToLineSeparatedString(task.slayerMasters);
@@ -111,10 +121,10 @@ public class SlayerPluginPanel extends PluginPanel
                                            .map(i -> i.name)
                                            .toArray(String[]::new));
 
-        Tab locationTab = new Tab(icons[0], new TextArea(locations).getTextArea());
-        Tab itemTab = new Tab(icons[1], new TextArea(items).getTextArea());
-        Tab combatTab = new Tab(icons[2], new Table(tableHeaders, task.attackStyles, task.attributes).getTable());
-        Tab masterTab = new Tab(icons[3], new TextArea(masters).getTextArea());
+        Tab locationTab = new Tab(icons.get(0), new TextArea(locations).getTextArea());
+        Tab itemTab = new Tab(icons.get(1), new TextArea(items).getTextArea());
+        Tab combatTab = new Tab(icons.get(2), new Table(tableHeaders, task.attackStyles, task.attributes).getTable());
+        Tab masterTab = new Tab(icons.get(3), new TextArea(masters).getTextArea());
 
         tabView.addTabs(new Tab[] { locationTab, itemTab, combatTab, masterTab });
 

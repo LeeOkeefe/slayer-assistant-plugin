@@ -1,13 +1,12 @@
 package com.slayerassistant;
 
-import com.slayerassistant.utils.ImageUtils;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
+import net.runelite.client.util.ImageUtil;
 
 import javax.inject.Inject;
-import javax.swing.*;
 import java.awt.image.BufferedImage;
 
 @PluginDescriptor(
@@ -39,13 +38,12 @@ public class SlayerAssistantPlugin extends Plugin
 
 	private NavigationButton getNavButton()
 	{
-		ImageIcon icon = ImageUtils.load("slayer_icon.png");
-		BufferedImage bufferedImage = ImageUtils.convertImageIconToBufferedImage(icon);
+		BufferedImage bufferedImage = ImageUtil.loadImageResource(getClass(), "/images/slayer_icon.png");
 
 		return NavigationButton.builder()
 				.tooltip("Slayer assistant")
 				.icon(bufferedImage)
-				.priority(5)
+				.priority(10)
 				.panel(slayerPanel)
 				.build();
 	}
