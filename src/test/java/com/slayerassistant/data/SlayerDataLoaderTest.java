@@ -6,7 +6,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
-import java.io.FileNotFoundException;
 import java.util.Collection;
 
 import static java.util.Optional.empty;
@@ -19,7 +18,7 @@ public class SlayerDataLoaderTest
     public ExpectedException exception = ExpectedException.none();
 
     @Test
-    public void loadReturnsCollectionOfSlayerTasks() throws FileNotFoundException
+    public void loadReturnsCollectionOfSlayerTasks()
     {
         SlayerDataLoader dataLoader = new SlayerDataLoader();
 
