@@ -2,17 +2,26 @@ package com.slayerassistant;
 
 import com.slayerassistant.data.SlayerDataLoader;
 import com.slayerassistant.domain.SlayerTask;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+@Slf4j
 public class SlayerManager
 {
-    private final Collection<SlayerTask> slayerTasks;
+    private Collection<SlayerTask> slayerTasks;
 
     public SlayerManager(SlayerDataLoader dataLoader)
     {
-        slayerTasks = Objects.requireNonNull(dataLoader.load());
+        try
+        {
+            slayerTasks = Objects.requireNonNull(dataLoader.load());
+        }
+        catch(NullPointerException e)
+        {
+            log.error("Failed to load slayer data", e);
+        }
     }
 
     public Collection<SlayerTask> getAllSlayerTasks()

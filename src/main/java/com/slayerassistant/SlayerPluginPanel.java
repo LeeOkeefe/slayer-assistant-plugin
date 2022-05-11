@@ -5,6 +5,7 @@ import com.slayerassistant.data.SlayerDataLoader;
 import com.slayerassistant.domain.SlayerTask;
 import com.slayerassistant.userinterface.TextArea;
 import com.slayerassistant.userinterface.*;
+import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.util.ImageUtil;
 
@@ -18,6 +19,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Objects;
 
+@Slf4j
 public class SlayerPluginPanel extends PluginPanel
 {
     private final SlayerManager slayerManager;
@@ -28,7 +30,7 @@ public class SlayerPluginPanel extends PluginPanel
     private final String[] tableHeaders = new String[] {"Attack styles", "Attributes"};
 
     @Inject
-    public SlayerPluginPanel() throws FileNotFoundException
+    public SlayerPluginPanel()
     {
         slayerManager = new SlayerManager(new SlayerDataLoader());
 
@@ -96,7 +98,7 @@ public class SlayerPluginPanel extends PluginPanel
         }
         catch (NullPointerException e)
         {
-            System.out.println(e.getMessage());
+            log.info(String.format("Could not find resource with name: %s", fileName), e);
             return new Header(font, monster, Color.ORANGE, SwingConstants.CENTER).getHeader();
         }
 
