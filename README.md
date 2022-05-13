@@ -1,4 +1,6 @@
 # Slayer Assistant
+[![](https://img.shields.io/endpoint?url=https://i.pluginhub.info/shields/installs/plugin/slayer-assistant)](https://runelite.net/plugin-hub)
+
 ![Enable](https://user-images.githubusercontent.com/34274877/164912013-1549c7bf-e4bc-4bbc-af45-6c97fe48e144.png)
 
 ![Search](https://user-images.githubusercontent.com/34274877/164911097-805ef1fa-1199-4689-9a5c-bfb9485a6fa2.png)
@@ -29,4 +31,5 @@ Some things I considered adding, but have not the time at the moment...
   - Have a button next to each location, which shows the user the fastest routes
   - Restructure the data to make it easier to manage / extend
   - Items and alternatives i.e. "Anti-dragon shield OR Dragonfire shield" instead of listing both separately
+  - Longer lines in the combat tab table have an ellipsis, but should have line wrapping instead
 ```
