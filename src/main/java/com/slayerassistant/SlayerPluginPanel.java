@@ -85,7 +85,8 @@ public class SlayerPluginPanel extends PluginPanel
     {
         Font font = new Font(Font.SANS_SERIF, Font.PLAIN, 15);
 
-        String fileName = String.format("/images/monsters/%s", monster.replace(" ", "_").concat(".png"));
+        String monsterImageName = monster.replace(" ", "_").concat(".png").toLowerCase();
+        String fileName = String.format("/images/monsters/%s", monsterImageName);
 
         ImageIcon imageIcon;
         try
