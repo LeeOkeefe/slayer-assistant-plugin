@@ -3,7 +3,7 @@ package com.slayerassistant;
 import com.google.inject.Inject;
 import com.slayerassistant.data.SlayerDataLoader;
 import com.slayerassistant.domain.SlayerTask;
-import com.slayerassistant.userinterface.TextArea;
+import com.slayerassistant.userinterface.ScrollableTextArea;
 import com.slayerassistant.userinterface.*;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.ui.PluginPanel;
@@ -123,10 +123,10 @@ public class SlayerPluginPanel extends PluginPanel
                                            .map(i -> i.name)
                                            .toArray(String[]::new));
 
-        Tab locationTab = new Tab(icons.get(0), new TextArea(locations).getTextArea());
-        Tab itemTab = new Tab(icons.get(1), new TextArea(items).getTextArea());
+        Tab locationTab = new Tab(icons.get(0), new ScrollableTextArea(locations).getScrollPane());
+        Tab itemTab = new Tab(icons.get(1), new ScrollableTextArea(items).getScrollPane());
         Tab combatTab = new Tab(icons.get(2), new Table(tableHeaders, task.attackStyles, task.attributes).getTable());
-        Tab masterTab = new Tab(icons.get(3), new TextArea(masters).getTextArea());
+        Tab masterTab = new Tab(icons.get(3), new ScrollableTextArea(masters).getScrollPane());
         Tab wikiTab = new Tab(icons.get(4), new ButtonUrlPanel(task.wikiUrls).getPanel());
 
         tabView.addTabs(new Tab[] { locationTab, itemTab, combatTab, masterTab, wikiTab });
