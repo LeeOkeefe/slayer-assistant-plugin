@@ -31,6 +31,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Aberrant spectre",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Aberrant_spectre"
+			},
+			{
+				"linkName": "Deviant spectre",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Deviant_spectre"
+			}
 		]
 	},
 	{
@@ -43,8 +53,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -61,6 +70,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Abyssal demon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Abyssal_demon"
+			},
+			{
+				"linkName": "Abyssal Sire",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Abyssal_Sire"
+			}
 		]
 	},
 	{
@@ -100,6 +119,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Adamant dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Adamant_dragon"
+			}
 		]
 	},
 	{
@@ -113,8 +138,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -132,6 +156,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ankou",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ankou"
+			}
 		]
 	},
 	{
@@ -157,7 +187,7 @@
 			"Ranged"
 		],
 		"alternatives": [
-			"Kree'arra",
+			"Kree\u0027arra",
 			"Flight Kilisa",
 			"Flockleader Geerin",
 			"Wingman Skree"
@@ -168,6 +198,28 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Aviansie",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Aviansie"
+			},
+			{
+				"linkName": "Kree\u0027arra",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kree\u0027arra"
+			},
+			{
+				"linkName": "Flight Kilisa",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Flight_Kilisa"
+			},
+			{
+				"linkName": "Flockleader Geerin",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Flockleader_Geerin"
+			},
+			{
+				"linkName": "Wingman Skree",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Wingman_Skree"
+			}
 		]
 	},
 	{
@@ -178,8 +230,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -193,6 +244,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Bandit",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bandit"
+			}
 		]
 	},
 	{
@@ -225,6 +282,16 @@
 			"Mazchna",
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Banshee",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Banshee"
+			},
+			{
+				"linkName": "Twisted Banshee",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Twisted_Banshee"
+			}
 		]
 	},
 	{
@@ -239,8 +306,8 @@
 				"icon": "Mirror shield.png"
 			},
 			{
-				"name": "V's shield",
-				"icon": "V's shield.png"
+				"name": "V\u0027s shield",
+				"icon": "V\u0027s shield.png"
 			}
 		],
 		"attributes": [
@@ -258,6 +325,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Basilisk",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Basilisk"
+			},
+			{
+				"linkName": "Basilisk Knights",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Basilisk_Knights"
+			}
 		]
 	},
 	{
@@ -270,8 +347,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -288,6 +364,24 @@
 		"slayerMasters": [
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Bat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bat"
+			},
+			{
+				"linkName": "Giant bat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Giant_bat"
+			},
+			{
+				"linkName": "Albino bat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Albino_bat"
+			},
+			{
+				"linkName": "Deathwing",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Deathwing"
+			}
 		]
 	},
 	{
@@ -300,8 +394,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -319,6 +412,24 @@
 			"Krystilia",
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Bear",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bear"
+			},
+			{
+				"linkName": "Black bear",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Black_bear"
+			},
+			{
+				"linkName": "Grizzly bear",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Grizzly_bear"
+			},
+			{
+				"linkName": "Callisto",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Callisto"
+			}
 		]
 	},
 	{
@@ -331,8 +442,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -353,6 +463,44 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Bird",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bird"
+			},
+			{
+				"linkName": "Bird",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bird"
+			},
+			{
+				"linkName": "Chicken",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Chicken"
+			},
+			{
+				"linkName": "Mounted terrorbird gnome",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mounted_terrorbird_gnome"
+			},
+			{
+				"linkName": "Rooster",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Rooster"
+			},
+			{
+				"linkName": "Seagull",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Seagull"
+			},
+			{
+				"linkName": "Terrorbird",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Terrorbird"
+			},
+			{
+				"linkName": "Vulture",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Vulture"
+			},
+			{
+				"linkName": "Undead chicken",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Undead_chicken"
+			}
 		]
 	},
 	{
@@ -366,8 +514,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -388,6 +535,28 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Black demon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Black_demon"
+			},
+			{
+				"linkName": "Demonic gorilla",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Demonic_gorilla"
+			},
+			{
+				"linkName": "Balfrug Kreeyath",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Balfrug_Kreeyath"
+			},
+			{
+				"linkName": "Skotizo",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Skotizo"
+			},
+			{
+				"linkName": "Porazdir",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Porazdir"
+			}
 		]
 	},
 	{
@@ -396,7 +565,7 @@
 		"locations": [
 			"Taverley Dungeon",
 			"Lava Maze",
-			"Evil Chicken's Lair"
+			"Evil Chicken\u0027s Lair"
 		],
 		"itemsRequired": [
 			{
@@ -430,6 +599,24 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Black dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Black_dragon"
+			},
+			{
+				"linkName": "Baby black dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Baby_black_dragon"
+			},
+			{
+				"linkName": "King Black Dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/King_Black_Dragon"
+			},
+			{
+				"linkName": "Brutal black dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Brutal_black_dragon"
+			}
 		]
 	},
 	{
@@ -441,8 +628,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -456,6 +642,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Black Knight",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Black_Knight"
+			}
 		]
 	},
 	{
@@ -469,8 +661,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -489,6 +680,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Bloodveld",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bloodveld"
+			},
+			{
+				"linkName": "Mutated Bloodveld",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mutated_Bloodveld"
+			}
 		]
 	},
 	{
@@ -497,7 +698,7 @@
 		"locations": [
 			"Taverley Dungeon",
 			"Ogre Enclave",
-			"Heroes' Guild",
+			"Heroes\u0027 Guild",
 			"Corsair Cove Dungeon"
 		],
 		"itemsRequired": [
@@ -533,6 +734,24 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Blue dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Blue_dragon"
+			},
+			{
+				"linkName": "Baby blue dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Baby_blue_dragon"
+			},
+			{
+				"linkName": "Brutal blue dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Brutal_blue_dragon"
+			},
+			{
+				"linkName": "Vorkath",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Vorkath"
+			}
 		]
 	},
 	{
@@ -543,8 +762,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -561,6 +779,12 @@
 			"Chaeldar",
 			"Konar quo Maten",
 			"Nieve"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Brine rat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Brine_rat"
+			}
 		]
 	},
 	{
@@ -600,6 +824,12 @@
 			"Vannaka",
 			"Chaeldar",
 			"Konar quo Maten"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Bronze dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Bronze_dragon"
+			}
 		]
 	},
 	{
@@ -610,8 +840,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -626,6 +855,12 @@
 		],
 		"slayerMasters": [
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Catablepon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Catablepon"
+			}
 		]
 	},
 	{
@@ -654,6 +889,12 @@
 			"Turael",
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cave bug",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cave_bug"
+			}
 		]
 	},
 	{
@@ -666,8 +907,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -685,13 +925,19 @@
 			"Mazchna",
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cave crawler",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cave_crawler"
+			}
 		]
 	},
 	{
 		"monster": "Cave horror",
 		"slayerLevel": 58,
 		"locations": [
-			"Mos Le'Harmless Cave"
+			"Mos Le\u0027Harmless Cave"
 		],
 		"itemsRequired": [
 			{
@@ -717,6 +963,12 @@
 			"Chaeldar",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cave horror",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cave_horror"
+			}
 		]
 	},
 	{
@@ -747,6 +999,12 @@
 			"Mazchna",
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cave slime",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cave_slime"
+			}
 		]
 	},
 	{
@@ -757,8 +1015,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -775,6 +1032,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cave kraken",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cave_kraken"
+			},
+			{
+				"linkName": "Kraken",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kraken"
+			}
 		]
 	},
 	{
@@ -786,8 +1053,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -801,6 +1067,16 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Chaos druid",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Chaos_druid"
+			},
+			{
+				"linkName": "Elder Chaos druid",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Elder_Chaos_druid"
+			}
 		]
 	},
 	{
@@ -815,8 +1091,8 @@
 				"icon": "Mirror shield.png"
 			},
 			{
-				"name": "V's shield",
-				"icon": "V's shield.png"
+				"name": "V\u0027s shield",
+				"icon": "V\u0027s shield.png"
 			}
 		],
 		"attributes": [
@@ -831,6 +1107,12 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cockatrice",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cockatrice"
+			}
 		]
 	},
 	{
@@ -843,8 +1125,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -859,6 +1140,20 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Cow",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cow"
+			},
+			{
+				"linkName": "Cow calf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cow_calf"
+			},
+			{
+				"linkName": "Undead cow",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Undead_cow"
+			}
 		]
 	},
 	{
@@ -869,8 +1164,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -886,6 +1180,12 @@
 			"Turael",
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Crawling Hand",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Crawling_Hand"
+			}
 		]
 	},
 	{
@@ -897,8 +1197,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -912,6 +1211,12 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Crocodile",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Crocodile"
+			}
 		]
 	},
 	{
@@ -921,12 +1226,11 @@
 			"Lighthouse",
 			"Waterbirth Island Dungeon",
 			"Catacombs of Kourend",
-			"Jormungand's Prison"
+			"Jormungand\u0027s Prison"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -948,6 +1252,32 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Dagannoth",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dagannoth"
+			},
+			{
+				"linkName": "Dagannoth fledgeling",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dagannoth_fledgeling"
+			},
+			{
+				"linkName": "Dagannoth spawn",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dagannoth_spawn"
+			},
+			{
+				"linkName": "Dagannoth Prime",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dagannoth_Prime"
+			},
+			{
+				"linkName": "Dagannoth Rex",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dagannoth_Rex"
+			},
+			{
+				"linkName": "Dagannoth Supreme",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dagannoth_Supreme"
+			}
 		]
 	},
 	{
@@ -959,8 +1289,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -977,18 +1306,23 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Dark beast",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dark_beast"
+			}
 		]
 	},
 	{
 		"monster": "Dark warrior",
 		"slayerLevel": 1,
 		"locations": [
-			"Dark Warriors' Fortress"
+			"Dark Warriors\u0027 Fortress"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1002,6 +1336,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Dark warrior",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dark_warrior"
+			}
 		]
 	},
 	{
@@ -1009,14 +1349,13 @@
 		"slayerLevel": 1,
 		"locations": [
 			"Ardougne",
-			"McGrubor's Wood",
+			"McGrubor\u0027s Wood",
 			"Black Arm Gang hideout in Brimhaven",
 			"Brimhaven Dungeon"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1034,6 +1373,28 @@
 		"slayerMasters": [
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Dog",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dog"
+			},
+			{
+				"linkName": "Guard dog",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Guard_dog"
+			},
+			{
+				"linkName": "Wild dog",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Wild_dog"
+			},
+			{
+				"linkName": "Jackal",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Jackal"
+			},
+			{
+				"linkName": "Temple Guardian",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Temple_Guardian"
+			}
 		]
 	},
 	{
@@ -1069,6 +1430,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Drake",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Drake"
+			}
 		]
 	},
 	{
@@ -1103,6 +1470,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Dust devil",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dust_devil"
+			}
 		]
 	},
 	{
@@ -1118,8 +1491,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1134,6 +1506,20 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Dwarf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dwarf"
+			},
+			{
+				"linkName": "Black Guard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Black_Guard"
+			},
+			{
+				"linkName": "Chaos dwarf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Chaos_dwarf"
+			}
 		]
 	},
 	{
@@ -1144,8 +1530,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1161,6 +1546,12 @@
 			"Krystilia",
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Earth Warrior",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Earth_Warrior"
+			}
 		]
 	},
 	{
@@ -1173,8 +1564,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1191,6 +1581,16 @@
 			"Chaeldar",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Elf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Elf"
+			},
+			{
+				"linkName": "Mourner (Lvl 108 variant only)",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mourner_(Lvl_108_variant_only)"
+			}
 		]
 	},
 	{
@@ -1201,8 +1601,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1216,6 +1615,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ent",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ent"
+			}
 		]
 	},
 	{
@@ -1242,6 +1647,12 @@
 		"slayerMasters": [
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Fever spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Fever_spider"
+			}
 		]
 	},
 	{
@@ -1257,8 +1668,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1277,6 +1687,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Fire giant",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Fire_giant"
+			}
 		]
 	},
 	{
@@ -1287,8 +1703,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1302,6 +1717,12 @@
 		],
 		"slayerMasters": [
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Flesh Crawler",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Flesh_Crawler"
+			}
 		]
 	},
 	{
@@ -1347,6 +1768,28 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Fossil Island Wyvern",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Fossil_Island_Wyvern"
+			},
+			{
+				"linkName": "Ancient wyvern",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ancient_wyvern"
+			},
+			{
+				"linkName": "Spitting wyvern",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Spitting_wyvern"
+			},
+			{
+				"linkName": "Taloned wyvern",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Taloned_wyvern"
+			},
+			{
+				"linkName": "Long-tailed wyvern",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Long-tailed_wyvern"
+			}
 		]
 	},
 	{
@@ -1380,6 +1823,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Gargoyle",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Gargoyle"
+			},
+			{
+				"linkName": "Grotesque Guardians",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Grotesque_Guardians"
+			}
 		]
 	},
 	{
@@ -1388,7 +1841,7 @@
 		"locations": [
 			"Varrock Sewers",
 			"Draynor Manor",
-			"Melzar's Maze",
+			"Melzar\u0027s Maze",
 			"Stronghold of Security",
 			"Taverley Dungeon",
 			"West Ardougne (graveyard)",
@@ -1402,8 +1855,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1418,6 +1870,16 @@
 		"slayerMasters": [
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ghost",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ghost"
+			},
+			{
+				"linkName": "Tortured soul",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Tortured_soul"
+			}
 		]
 	},
 	{
@@ -1428,8 +1890,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1444,6 +1905,16 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ghoul",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ghoul"
+			},
+			{
+				"linkName": "Ghoul Champion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ghoul_Champion"
+			}
 		]
 	},
 	{
@@ -1466,8 +1937,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1484,6 +1954,28 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Goblin",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Goblin"
+			},
+			{
+				"linkName": "Goblin Champion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Goblin_Champion"
+			},
+			{
+				"linkName": "Sergeant Strongstack",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sergeant_Strongstack"
+			},
+			{
+				"linkName": "Sergeant Grimspike",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sergeant_Grimspike"
+			},
+			{
+				"linkName": "Sergeant Steelwill",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sergeant_Steelwill"
+			}
 		]
 	},
 	{
@@ -1500,8 +1992,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1511,7 +2002,7 @@
 			"Melee"
 		],
 		"alternatives": [
-			"K'ril Tsutsaroth",
+			"K\u0027ril Tsutsaroth",
 			"Tstanon Karlak",
 			"Skotizo"
 		],
@@ -1521,13 +2012,31 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Greater demon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Greater_demon"
+			},
+			{
+				"linkName": "K\u0027ril Tsutsaroth",
+				"linkUrl": "https://oldschool.runescape.wiki/w/K\u0027ril_Tsutsaroth"
+			},
+			{
+				"linkName": "Tstanon Karlak",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Tstanon_Karlak"
+			},
+			{
+				"linkName": "Skotizo",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Skotizo"
+			}
 		]
 	},
 	{
 		"monster": "Green dragon",
 		"slayerLevel": 1,
 		"locations": [
-			"West of the Dark Warriors' Fortress",
+			"West of the Dark Warriors\u0027 Fortress",
 			"north of the Graveyard of Shadows",
 			"South of the Lava Maze",
 			"South of Venenatis",
@@ -1563,6 +2072,24 @@
 		"slayerMasters": [
 			"Krystilia",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Green dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Green_dragon"
+			},
+			{
+				"linkName": "Baby green dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Baby_green_dragon"
+			},
+			{
+				"linkName": "Brutal green dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Brutal_green_dragon"
+			},
+			{
+				"linkName": "Elvarg",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Elvarg"
+			}
 		]
 	},
 	{
@@ -1589,6 +2116,12 @@
 		"slayerMasters": [
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Harpie bug swarm",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Harpie_bug_swarm"
+			}
 		]
 	},
 	{
@@ -1606,8 +2139,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1626,6 +2158,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Hellhound",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Hellhound"
+			},
+			{
+				"linkName": "Cerberus",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cerberus"
+			}
 		]
 	},
 	{
@@ -1644,8 +2186,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1662,6 +2203,20 @@
 			"Krystilia",
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Hill Giant",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Hill_Giant"
+			},
+			{
+				"linkName": "Giant Champion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Giant_Champion"
+			},
+			{
+				"linkName": "Cyclops",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Cyclops"
+			}
 		]
 	},
 	{
@@ -1683,8 +2238,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1699,6 +2253,16 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Hobgoblin",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Hobgoblin"
+			},
+			{
+				"linkName": "Hobgoblin Champion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Hobgoblin_Champion"
+			}
 		]
 	},
 	{
@@ -1709,8 +2273,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1726,6 +2289,16 @@
 		],
 		"slayerMasters": [
 			"Konar quo Maten"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Hydra",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Hydra"
+			},
+			{
+				"linkName": "Alchemical Hydra",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Alchemical_Hydra"
+			}
 		]
 	},
 	{
@@ -1738,8 +2311,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1755,6 +2327,12 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Icefiend",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Icefiend"
+			}
 		]
 	},
 	{
@@ -1767,8 +2345,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1783,6 +2360,12 @@
 		"slayerMasters": [
 			"Krystilia",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ice giant",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ice_giant"
+			}
 		]
 	},
 	{
@@ -1795,8 +2378,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1812,6 +2394,16 @@
 			"Krystilia",
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ice warrior",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ice_warrior"
+			},
+			{
+				"linkName": "Icelord",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Icelord"
+			}
 		]
 	},
 	{
@@ -1822,8 +2414,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1838,6 +2429,12 @@
 		"slayerMasters": [
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Infernal Mage",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Infernal_Mage"
+			}
 		]
 	},
 	{
@@ -1877,6 +2474,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Iron dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Iron_dragon"
+			}
 		]
 	},
 	{
@@ -1887,8 +2490,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1904,18 +2506,27 @@
 			"Vannaka",
 			"Chaeldar",
 			"Konar quo Maten"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Jelly",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Jelly"
+			},
+			{
+				"linkName": "Warped Jelly",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Warped_Jelly"
+			}
 		]
 	},
 	{
 		"monster": "Jungle horror",
 		"slayerLevel": 1,
 		"locations": [
-			"Mos Le'Harmless"
+			"Mos Le\u0027Harmless"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1930,6 +2541,12 @@
 		"slayerMasters": [
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Jungle horror",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Jungle_horror"
+			}
 		]
 	},
 	{
@@ -1941,8 +2558,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -1965,6 +2581,28 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Kalphite",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kalphite"
+			},
+			{
+				"linkName": "Kalphite Queen",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen"
+			},
+			{
+				"linkName": "Kalphite Worker",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kalphite_Worker"
+			},
+			{
+				"linkName": "Kalphite Soldier",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kalphite_Soldier"
+			},
+			{
+				"linkName": "Kalphite Guardian",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kalphite_Guardian"
+			}
 		]
 	},
 	{
@@ -1992,6 +2630,12 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Killerwatt",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Killerwatt"
+			}
 		]
 	},
 	{
@@ -2033,6 +2677,12 @@
 			"Chaeldar",
 			"Konar quo Maten",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Kurask",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kurask"
+			}
 		]
 	},
 	{
@@ -2068,24 +2718,29 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Lava dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lava_dragon"
+			}
 		]
 	},
 	{
 		"monster": "Lesser demon",
 		"slayerLevel": 1,
 		"locations": [
-			"Wizards' Tower",
+			"Wizards\u0027 Tower",
 			"Karamja Dungeon",
 			"Crandor",
-			"Melzar's Maze",
+			"Melzar\u0027s Maze",
 			"Demonic Ruins",
 			"Lava Maze",
 			"Catacombs of Kourend"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2095,12 +2750,22 @@
 			"Melee"
 		],
 		"alternatives": [
-			"Zakl'n Gritch"
+			"Zakl\u0027n Gritch"
 		],
 		"slayerMasters": [
 			"Krystilia",
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Lesser demon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lesser_demon"
+			},
+			{
+				"linkName": "Zakl\u0027n Gritch",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Zakl\u0027n_Gritch"
+			}
 		]
 	},
 	{
@@ -2112,8 +2777,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2132,6 +2796,20 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Lizardman",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lizardman"
+			},
+			{
+				"linkName": "Lizardman brute",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lizardman_brute"
+			},
+			{
+				"linkName": "Lizardman shaman",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lizardman_shaman"
+			}
 		]
 	},
 	{
@@ -2163,6 +2841,28 @@
 			"Mazchna",
 			"Chaeldar",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Lizard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lizard"
+			},
+			{
+				"linkName": "Desert Lizard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Desert_Lizard"
+			},
+			{
+				"linkName": "Lizard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lizard"
+			},
+			{
+				"linkName": "Small Lizard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Small_Lizard"
+			},
+			{
+				"linkName": "Sulphur Lizard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sulphur_Lizard"
+			}
 		]
 	},
 	{
@@ -2188,6 +2888,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Magic axe",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Magic_axe"
+			}
 		]
 	},
 	{
@@ -2198,8 +2904,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2213,6 +2918,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Mammoth",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mammoth"
+			}
 		]
 	},
 	{
@@ -2252,6 +2963,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Mithril dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mithril_dragon"
+			}
 		]
 	},
 	{
@@ -2262,8 +2979,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2277,6 +2993,12 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Minotaur",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Minotaur"
+			}
 		]
 	},
 	{
@@ -2303,6 +3025,12 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Mogre",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mogre"
+			}
 		]
 	},
 	{
@@ -2328,6 +3056,12 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Molanisk",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Molanisk"
+			}
 		]
 	},
 	{
@@ -2335,13 +3069,12 @@
 		"slayerLevel": 1,
 		"locations": [
 			"Karamja",
-			"Mos Le'Harmless",
+			"Mos Le\u0027Harmless",
 			"Ardougne Zoo"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2357,6 +3090,24 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Monkey",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Monkey"
+			},
+			{
+				"linkName": "Monkey Guard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Monkey_Guard"
+			},
+			{
+				"linkName": "Monkey Archer",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Monkey_Archer"
+			},
+			{
+				"linkName": "Zombie monkey and more (like Padulah)",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Zombie_monkey_and_more_(like_Padulah)"
+			}
 		]
 	},
 	{
@@ -2369,14 +3120,13 @@
 			"Moss Giant Island",
 			"Wilderness",
 			"Varrock Sewers",
-			"Pirates' Cove",
-			"Glarial's Tomb",
+			"Pirates\u0027 Cove",
+			"Glarial\u0027s Tomb",
 			"Catacombs of Kourend"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2391,6 +3141,12 @@
 		"slayerMasters": [
 			"Krystilia",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Moss giant",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Moss_giant"
+			}
 		]
 	},
 	{
@@ -2402,8 +3158,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2420,17 +3175,23 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Nechryael",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Nechryael"
+			}
 		]
 	},
 	{
 		"monster": "Ogre",
 		"slayerLevel": 1,
 		"locations": [
-			"Gu'Tanoth",
+			"Gu\u0027Tanoth",
 			"west of Yanille",
 			"south of Castle Wars",
-			"south of Gu'Tanoth",
-			"Toban 's Island",
+			"south of Gu\u0027Tanoth",
+			"Toban \u0027s Island",
 			"Chaos Druid Tower dungeon",
 			"Clock Tower Dungeon",
 			"Witchaven Dungeon",
@@ -2440,8 +3201,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2458,6 +3218,28 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Ogre",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ogre"
+			},
+			{
+				"linkName": "Ogre chieftain",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ogre_chieftain"
+			},
+			{
+				"linkName": "Enclave guard",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Enclave_guard"
+			},
+			{
+				"linkName": "Ogress Shaman",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ogress_Shaman"
+			},
+			{
+				"linkName": "Ogress Warrior",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ogress_Warrior"
+			}
 		]
 	},
 	{
@@ -2468,8 +3250,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2483,18 +3264,23 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Otherworldly being",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Otherworldly_being"
+			}
 		]
 	},
 	{
 		"monster": "Pirate",
 		"slayerLevel": 1,
 		"locations": [
-			"Pirates' Hideout"
+			"Pirates\u0027 Hideout"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2508,6 +3294,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Pirate",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Pirate"
+			}
 		]
 	},
 	{
@@ -2522,8 +3314,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2538,6 +3329,16 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Pyrefiend",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Pyrefiend"
+			},
+			{
+				"linkName": "Pyrelord",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Pyrelord"
+			}
 		]
 	},
 	{
@@ -2548,8 +3349,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2567,6 +3367,32 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Rat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Rat"
+			},
+			{
+				"linkName": "Giant rat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Giant_rat"
+			},
+			{
+				"linkName": "Dungeon rat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dungeon_rat"
+			},
+			{
+				"linkName": "Crypt rat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Crypt_rat"
+			},
+			{
+				"linkName": "Brine rat",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Brine_rat"
+			},
+			{
+				"linkName": "Hell-Rat Behemoth",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Hell-Rat_Behemoth"
+			}
 		]
 	},
 	{
@@ -2606,6 +3432,20 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Red dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Red_dragon"
+			},
+			{
+				"linkName": "Baby red dragons",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Baby_red_dragons"
+			},
+			{
+				"linkName": "Brutal red dragons",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Brutal_red_dragons"
+			}
 		]
 	},
 	{
@@ -2616,8 +3456,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2633,6 +3472,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Revenant",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Revenant"
+			}
 		]
 	},
 	{
@@ -2661,19 +3506,24 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Rockslug",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Rockslug"
+			}
 		]
 	},
 	{
 		"monster": "Rogue",
 		"slayerLevel": 1,
 		"locations": [
-			"Rogues' Castle",
+			"Rogues\u0027 Castle",
 			"southwest of Mage Arena"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2687,6 +3537,12 @@
 		],
 		"slayerMasters": [
 			"Krystilia"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Rogue",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Rogue"
+			}
 		]
 	},
 	{
@@ -2726,6 +3582,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Rune Dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Rune_Dragon"
+			}
 		]
 	},
 	{
@@ -2737,8 +3599,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2756,6 +3617,24 @@
 		],
 		"slayerMasters": [
 			"Nieve"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Scabarite",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Scabarite"
+			},
+			{
+				"linkName": "Locust riders",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Locust_riders"
+			},
+			{
+				"linkName": "Scarab mages",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Scarab_mages"
+			},
+			{
+				"linkName": "Scarab swarms",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Scarab_swarms"
+			}
 		]
 	},
 	{
@@ -2772,8 +3651,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2793,18 +3671,43 @@
 			"Krystilia",
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Scorpion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Scorpion"
+			},
+			{
+				"linkName": "King Scorpion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/King_Scorpion"
+			},
+			{
+				"linkName": "Poison Scorpion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Poison_Scorpion"
+			},
+			{
+				"linkName": "Pit Scorpion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Pit_Scorpion"
+			},
+			{
+				"linkName": "Scorpia",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Scorpia"
+			},
+			{
+				"linkName": "Lobstrosity",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Lobstrosity"
+			}
 		]
 	},
 	{
 		"monster": "Sea snake",
 		"slayerLevel": 1,
 		"locations": [
-			"Miscellania & Etceteria Dungeon"
+			"Miscellania \u0026 Etceteria Dungeon"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2820,21 +3723,38 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Sea snake",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sea_snake"
+			},
+			{
+				"linkName": "Sea Snake Hatchling",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sea_Snake_Hatchling"
+			},
+			{
+				"linkName": "Sea Snake Young",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sea_Snake_Young"
+			},
+			{
+				"linkName": "Giant Sea Snake",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Giant_Sea_Snake"
+			}
 		]
 	},
 	{
 		"monster": "Shade",
 		"slayerLevel": 1,
 		"locations": [
-			"Mort'ton",
+			"Mort\u0027ton",
 			"Shade Catacombs",
 			"Temple Trekking",
 			"Catacombs of Kourend"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2853,18 +3773,39 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Shade",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Shade"
+			},
+			{
+				"linkName": "Loar",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Loar"
+			},
+			{
+				"linkName": "Phryn",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Phryn"
+			},
+			{
+				"linkName": "Riyl",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Riyl"
+			},
+			{
+				"linkName": "Asyn and Fiyr shades",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Asyn_and_Fiyr_shades"
+			}
 		]
 	},
 	{
 		"monster": "Shadow warrior",
 		"slayerLevel": 1,
 		"locations": [
-			"Legends' Guild basement"
+			"Legends\u0027 Guild basement"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2879,6 +3820,12 @@
 		"slayerMasters": [
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Shadow warrior",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Shadow_warrior"
+			}
 		]
 	},
 	{
@@ -2916,6 +3863,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Skeletal Wyvern",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Skeletal_Wyvern"
+			}
 		]
 	},
 	{
@@ -2933,15 +3886,14 @@
 			"Waterfall Dungeon",
 			"Wilderness Agility Course",
 			"Barrows",
-			"Melzar's Maze",
+			"Melzar\u0027s Maze",
 			"Wilderness Volcano",
 			"Ape Atoll Dungeon",
 			"Underground Pass"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -2952,12 +3904,26 @@
 		],
 		"alternatives": [
 			"Skeleton Champion",
-			"Vet'ion"
+			"Vet\u0027ion"
 		],
 		"slayerMasters": [
 			"Krystilia",
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Skeleton",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Skeleton"
+			},
+			{
+				"linkName": "Skeleton Champion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Skeleton_Champion"
+			},
+			{
+				"linkName": "Vet\u0027ion",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Vet\u0027ion"
+			}
 		]
 	},
 	{
@@ -2990,6 +3956,20 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Smoke devil",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Smoke_devil"
+			},
+			{
+				"linkName": "Thermonuclear smoke devil",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil"
+			},
+			{
+				"linkName": "Nuclear smoke devil",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Nuclear_smoke_devil"
+			}
 		]
 	},
 	{
@@ -3020,14 +4000,20 @@
 		],
 		"slayerMasters": [
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Sourhog",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sourhog"
+			}
 		]
 	},
 	{
 		"monster": "Spider",
 		"slayerLevel": 1,
 		"locations": [
-			"Melzar's Maze",
-			"Sorceress 's house",
+			"Melzar\u0027s Maze",
+			"Sorceress \u0027s house",
 			"Lumbridge Castle basement",
 			"behind Lumbridge Castle",
 			"Stronghold of Security",
@@ -3039,8 +4025,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3065,6 +4050,56 @@
 		"slayerMasters": [
 			"Krystilia",
 			"Turael"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Spider"
+			},
+			{
+				"linkName": "Giant spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Giant_spider"
+			},
+			{
+				"linkName": "Shadow spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Shadow_spider"
+			},
+			{
+				"linkName": "Jungle spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Jungle_spider"
+			},
+			{
+				"linkName": "Deadly red spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Deadly_red_spider"
+			},
+			{
+				"linkName": "Poison spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Poison_spider"
+			},
+			{
+				"linkName": "Blessed spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Blessed_spider"
+			},
+			{
+				"linkName": "Kalrag",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Kalrag"
+			},
+			{
+				"linkName": "Crypt spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Crypt_spider"
+			},
+			{
+				"linkName": "Temple Spider",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Temple_Spider"
+			},
+			{
+				"linkName": "Sarachnis",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Sarachnis"
+			},
+			{
+				"linkName": "Venenatis",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Venenatis"
+			}
 		]
 	},
 	{
@@ -3076,8 +4111,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3095,6 +4129,12 @@
 			"Chaeldar",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Spiritual creature",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Spiritual_creature"
+			}
 		]
 	},
 	{
@@ -3134,6 +4174,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Steel dragon",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Steel_dragon"
+			}
 		]
 	},
 	{
@@ -3161,18 +4207,23 @@
 		"slayerMasters": [
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Suqah",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Suqah"
+			}
 		]
 	},
 	{
 		"monster": "Terror dog",
 		"slayerLevel": 40,
 		"locations": [
-			"Tarn's Lair"
+			"Tarn\u0027s Lair"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3186,6 +4237,12 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Terror dog",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Terror_dog"
+			}
 		]
 	},
 	{
@@ -3200,8 +4257,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3225,6 +4281,36 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Troll",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Troll"
+			},
+			{
+				"linkName": "Mountain troll",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Mountain_troll"
+			},
+			{
+				"linkName": "Ice troll grunt",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ice_troll_grunt"
+			},
+			{
+				"linkName": "Runt",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Runt"
+			},
+			{
+				"linkName": "Male and Female",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Male_and_Female"
+			},
+			{
+				"linkName": "Ice troll",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ice_troll"
+			},
+			{
+				"linkName": "River troll",
+				"linkUrl": "https://oldschool.runescape.wiki/w/River_troll"
+			}
 		]
 	},
 	{
@@ -3265,6 +4351,12 @@
 			"Chaeldar",
 			"Konar quo Maten",
 			"Nieve"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Turoth",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Turoth"
+			}
 		]
 	},
 	{
@@ -3278,8 +4370,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3294,6 +4385,12 @@
 		"slayerMasters": [
 			"Mazchna",
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Vampyre",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Vampyre"
+			}
 		]
 	},
 	{
@@ -3325,6 +4422,12 @@
 			"Mazchna",
 			"Vannaka",
 			"Chaeldar"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Wall beast",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Wall_beast"
+			}
 		]
 	},
 	{
@@ -3336,8 +4439,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3353,6 +4455,12 @@
 		"slayerMasters": [
 			"Konar quo Maten",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Waterfiend",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Waterfiend"
+			}
 		]
 	},
 	{
@@ -3365,8 +4473,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3380,6 +4487,12 @@
 		],
 		"slayerMasters": [
 			"Vannaka"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Werewolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Werewolf"
+			}
 		]
 	},
 	{
@@ -3392,8 +4505,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3412,6 +4524,32 @@
 		"slayerMasters": [
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Wolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Wolf"
+			},
+			{
+				"linkName": "Big Wolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Big_Wolf"
+			},
+			{
+				"linkName": "Dire wolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Dire_wolf"
+			},
+			{
+				"linkName": "Jungle wolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Jungle_wolf"
+			},
+			{
+				"linkName": "Desert Wolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Desert_Wolf"
+			},
+			{
+				"linkName": "Ice Wolf",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ice_Wolf"
+			}
 		]
 	},
 	{
@@ -3422,8 +4560,7 @@
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3441,6 +4578,12 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Wyrm",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Wyrm"
+			}
 		]
 	},
 	{
@@ -3453,14 +4596,13 @@
 			"Graveyard of Shadows",
 			"Stronghold of Security",
 			"Varrock Sewers",
-			"Wizards' Guild basement",
+			"Wizards\u0027 Guild basement",
 			"Draynor Sewers",
 			"Lair of Tarn Razorlor"
 		],
 		"itemsRequired": [
 			{
-				"name": "None",
-				"icon": null
+				"name": "None"
 			}
 		],
 		"attributes": [
@@ -3476,6 +4618,16 @@
 			"Krystilia",
 			"Turael",
 			"Mazchna"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Zombie",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Zombie"
+			},
+			{
+				"linkName": "Any zombie-class except Zogres and Zombie monkeys",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Zombies"
+			}
 		]
 	},
 	{
@@ -3510,6 +4662,16 @@
 			"Konar quo Maten",
 			"Nieve",
 			"Duradel"
+		],
+		"wikiUrls": [
+			{
+				"linkName": "Zygomite",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Zygomite"
+			},
+			{
+				"linkName": "Ancient Zygomite",
+				"linkUrl": "https://oldschool.runescape.wiki/w/Ancient_Zygomite"
+			}
 		]
 	}
 ]

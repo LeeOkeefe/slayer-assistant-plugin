@@ -12,6 +12,7 @@ public class SlayerTask
     public final String[] attackStyles;
     public final String[] alternatives;
     public final String[] slayerMasters;
+    public WikiUrl[] wikiUrls;
 
     public SlayerTask(
             String monster,
@@ -21,7 +22,8 @@ public class SlayerTask
             String[] attributes,
             String[] attackStyles,
             String[] alternatives,
-            String[] slayerMasters)
+            String[] slayerMasters,
+            WikiUrl[] wikiUrls)
     {
         this.monster = Objects.requireNonNull(monster, "monster cannot be null");
         this.slayerLevel = slayerLevel;
@@ -31,5 +33,6 @@ public class SlayerTask
         this.attackStyles = Objects.requireNonNull(attackStyles, "attack styles cannot be null");
         this.alternatives = Objects.requireNonNull(alternatives, "alternatives cannot be null");
         this.slayerMasters = Objects.requireNonNull(slayerMasters, "slayer masters cannot be null");
+        this.wikiUrls = Objects.requireNonNull(wikiUrls, "wiki link cannot be null");
     }
 }

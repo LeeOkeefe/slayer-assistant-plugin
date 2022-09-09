@@ -25,7 +25,7 @@ public class SlayerPluginPanel extends PluginPanel
     private final SelectList<SlayerTask> slayerTasksList;
     private final SearchBar searchBar;
 
-    private final String[] tabImageNamesWithExtensions = new String[] {"compass.png", "inventory.png", "combat.png", "slayer_icon.png"};
+    private final String[] tabImageNamesWithExtensions = new String[] {"compass.png", "inventory.png", "combat.png", "slayer_icon.png", "wiki.png"};
     private final String[] tableHeaders = new String[] {"Attack styles", "Attributes"};
 
     @Inject
@@ -128,7 +128,10 @@ public class SlayerPluginPanel extends PluginPanel
         Tab combatTab = new Tab(icons.get(2), new Table(tableHeaders, task.attackStyles, task.attributes).getTable());
         Tab masterTab = new Tab(icons.get(3), new TextArea(masters).getTextArea());
 
-        tabView.addTabs(new Tab[] { locationTab, itemTab, combatTab, masterTab });
+
+        Tab wikiTab = new Tab(icons.get(4), new UrlPanel(task.wikiUrls).getPanel());
+
+        tabView.addTabs(new Tab[] { locationTab, itemTab, combatTab, masterTab, wikiTab });
 
         return tabView;
     }
