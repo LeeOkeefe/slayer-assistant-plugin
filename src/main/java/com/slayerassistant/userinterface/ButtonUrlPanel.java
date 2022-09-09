@@ -4,13 +4,11 @@ import com.slayerassistant.domain.WikiUrl;
 import net.runelite.client.util.LinkBrowser;
 
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.swing.*;
 
 import java.awt.*;
 
-@Slf4j
 public class ButtonUrlPanel {
     @Getter
     private final JPanel panel = new JPanel();
