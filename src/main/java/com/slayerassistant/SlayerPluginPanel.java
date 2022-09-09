@@ -127,9 +127,7 @@ public class SlayerPluginPanel extends PluginPanel
         Tab itemTab = new Tab(icons.get(1), new TextArea(items).getTextArea());
         Tab combatTab = new Tab(icons.get(2), new Table(tableHeaders, task.attackStyles, task.attributes).getTable());
         Tab masterTab = new Tab(icons.get(3), new TextArea(masters).getTextArea());
-
-
-        Tab wikiTab = new Tab(icons.get(4), new UrlPanel(task.wikiUrls).getPanel());
+        Tab wikiTab = new Tab(icons.get(4), new ButtonUrlPanel(task.wikiUrls).getPanel());
 
         tabView.addTabs(new Tab[] { locationTab, itemTab, combatTab, masterTab, wikiTab });
 
