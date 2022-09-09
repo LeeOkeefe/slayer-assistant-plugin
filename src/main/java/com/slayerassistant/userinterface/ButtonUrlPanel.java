@@ -1,6 +1,8 @@
 package com.slayerassistant.userinterface;
 import com.slayerassistant.domain.WikiUrl;
 
+import net.runelite.client.util.LinkBrowser;
+
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
@@ -37,16 +39,8 @@ public class ButtonUrlPanel {
         final JButton urlButton = new JButton();
 
         urlButton.setText(buttonText);
-        urlButton.addActionListener(e -> openWebPage(buttonUrl));
+        urlButton.addActionListener(e -> LinkBrowser.browse(buttonUrl));
 
         return urlButton;
-    }
-
-    private void openWebPage(String url) {
-        try {
-            java.awt.Desktop.getDesktop().browse(java.net.URI.create(url));
-        } catch (java.io.IOException e) {
-            log.error("Failed to load slayer data", e);
-        }
     }
 }
