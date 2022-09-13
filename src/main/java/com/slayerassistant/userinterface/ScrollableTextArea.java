@@ -7,13 +7,14 @@ import javax.swing.border.BevelBorder;
 import javax.swing.border.Border;
 import javax.swing.border.CompoundBorder;
 
-public class TextArea
+public class ScrollableTextArea
 {
     @Getter
-    private final JTextArea textArea = new JTextArea();
+    private final JScrollPane scrollPane = new JScrollPane(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 
-    public TextArea(String text)
+    public ScrollableTextArea(String text)
     {
+        JTextArea textArea = new JTextArea();
         textArea.setLineWrap(true);
         textArea.setWrapStyleWord(true);
 
@@ -22,6 +23,10 @@ public class TextArea
 
         textArea.setBorder(new CompoundBorder(bevelBorder, emptyBorder));
         textArea.setEnabled(false);
-        textArea.append(text);
+        textArea.setText(text);
+        textArea.setCaretPosition(0);
+
+        scrollPane.setViewportView(textArea);
     }
 }
+
