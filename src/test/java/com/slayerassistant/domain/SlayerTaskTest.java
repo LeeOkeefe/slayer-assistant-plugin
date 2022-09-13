@@ -19,7 +19,8 @@ public class SlayerTaskTest
         final String[] strings = new String[]{};
         final Item[] items = new Item[]{};
 
-        new SlayerTask(null, 123, strings, items, strings, strings, strings, strings);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask(null, 123, strings, items, strings, strings, strings, strings, wikiUrls);
     }
 
     @Test
@@ -30,7 +31,8 @@ public class SlayerTaskTest
         final String[] strings = new String[]{};
         final Item[] items = new Item[]{};
 
-        new SlayerTask("monster", 123, null, items, strings, strings, strings, strings);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask("monster", 123, null, items, strings, strings, strings, strings, wikiUrls);
     }
 
     @Test
@@ -40,7 +42,8 @@ public class SlayerTaskTest
 
         final String[] strings = new String[]{};
 
-        new SlayerTask("monster", 123, strings, null, strings, strings, strings, strings);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask("monster", 123, strings, null, strings, strings, strings, strings, wikiUrls);
     }
 
     @Test
@@ -51,7 +54,8 @@ public class SlayerTaskTest
         final String[] strings = new String[]{};
         final Item[] items = new Item[]{};
 
-        new SlayerTask("monster", 123, strings, items, null, strings, strings, strings);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask("monster", 123, strings, items, null, strings, strings, strings, wikiUrls);
     }
 
     @Test
@@ -62,7 +66,8 @@ public class SlayerTaskTest
         final String[] strings = new String[]{};
         final Item[] items = new Item[]{};
 
-        new SlayerTask("monster", 123, strings, items, strings, null, strings, strings);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask("monster", 123, strings, items, strings, null, strings, strings, wikiUrls);
     }
 
     @Test
@@ -73,7 +78,8 @@ public class SlayerTaskTest
         final String[] strings = new String[]{};
         final Item[] items = new Item[]{};
 
-        new SlayerTask("monster", 123, strings, items, strings, strings, null, strings);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask("monster", 123, strings, items, strings, strings, null, strings, wikiUrls);
     }
 
     @Test
@@ -84,7 +90,8 @@ public class SlayerTaskTest
         final String[] strings = new String[]{};
         final Item[] items = new Item[]{};
 
-        new SlayerTask("monster", 123, strings, items, strings, strings, strings, null);
+        final WikiUrl[] wikiUrls = {new WikiUrl("", "")};
+        new SlayerTask("monster", 123, strings, items, strings, strings, strings, null, wikiUrls);
     }
 
     @Test
@@ -98,7 +105,10 @@ public class SlayerTaskTest
         final String[] expectedAttackStyles = new String[] { "Magic" };
         final String[] expectedAlternatives = new String[] { "Deviant spectre" };
         final String[] expectedSlayerMasters = new String[] { "Vannaka" };
-
+        final WikiUrl[] expectedWikiLink = {
+                new WikiUrl("Aberrant spectre", "https://oldschool.runescape.wiki/w/Aberrant_spectre"),
+                new WikiUrl("Deviant spectre", "https://oldschool.runescape.wiki/w/Deviant_spectre")
+        };
         SlayerTask slayerTask = new SlayerTask(
                 expectedMonster,
                 expectedSlayerLevel,
@@ -107,7 +117,8 @@ public class SlayerTaskTest
                 expectedAttributes,
                 expectedAttackStyles,
                 expectedAlternatives,
-                expectedSlayerMasters);
+                expectedSlayerMasters,
+                expectedWikiLink);
 
         assert slayerTask.monster.equals(expectedMonster);
         assert slayerTask.slayerLevel == expectedSlayerLevel;

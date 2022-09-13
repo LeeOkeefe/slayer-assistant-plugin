@@ -3,6 +3,7 @@ package com.slayerassistant;
 import com.slayerassistant.data.SlayerDataLoader;
 import com.slayerassistant.domain.Item;
 import com.slayerassistant.domain.SlayerTask;
+import com.slayerassistant.domain.WikiUrl;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -105,6 +106,7 @@ public class SlayerManagerTest
     {
         String[] strings = new String[] {};
 
-        return new SlayerTask(monster, 1, strings, new Item[]{}, strings, strings, strings, strings);
+        WikiUrl[] wikiUrls = {new WikiUrl("","")};
+        return new SlayerTask(monster, 1, strings, new Item[]{}, strings, strings, strings, strings, wikiUrls);
     }
 }
