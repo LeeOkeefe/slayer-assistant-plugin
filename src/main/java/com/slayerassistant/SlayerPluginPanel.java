@@ -79,7 +79,7 @@ public class SlayerPluginPanel extends PluginPanel
     {
         removeComponents(null);
         add(searchBar.getSearchBar());
-        setTaskSelectList(taskService.getAll());
+        setTaskSelectList(taskService.getAll(Comparator.comparing(t -> t.name)));
     }
 
     private JPanel createHeader(String monster)
@@ -161,7 +161,7 @@ public class SlayerPluginPanel extends PluginPanel
         {
             String text = searchBar.getSearchBar().getText();
             Task[] tasks = Objects.equals(text, "") || Objects.equals(text, null)
-                    ? taskService.getAll()
+                    ? taskService.getAll(Comparator.comparing(t -> t.name))
                     : taskService.searchPartialName(text);
 
             setTaskSelectList(tasks);
@@ -170,6 +170,6 @@ public class SlayerPluginPanel extends PluginPanel
 
     private Runnable handleOnClear()
     {
-        return () -> setTaskSelectList(taskService.getAll());
+        return () -> setTaskSelectList(taskService.getAll(Comparator.comparing(t -> t.name)));
     }
 }

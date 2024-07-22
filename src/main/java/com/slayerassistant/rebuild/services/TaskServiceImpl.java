@@ -19,14 +19,17 @@ import java.util.*;
 public class TaskServiceImpl implements TaskService 
 {
     private final Map<String, Task> tasks = new HashMap<>();
+    private final String baseWikiUrl;
     
-    public TaskServiceImpl(@NonNull String jsonPath)
+    public TaskServiceImpl(@NonNull String dataPath, @NonNull String baseWikiUrl)
     {
-        InputStream inputStream = this.getClass().getResourceAsStream(jsonPath);
+        this.baseWikiUrl = baseWikiUrl;
+        
+        InputStream inputStream = this.getClass().getResourceAsStream(dataPath);
 
         if (inputStream == null) 
         {
-            throw new RuntimeException("Could not find JSON at path " + jsonPath);
+            throw new RuntimeException("Could not find JSON at path " + dataPath);
         }
         
         try (Reader reader = new InputStreamReader(inputStream))
@@ -42,11 +45,11 @@ public class TaskServiceImpl implements TaskService
         } 
         catch (JsonSyntaxException e) 
         {
-            log.error("JSON syntax error in file {}", jsonPath, e);
+            log.error("JSON syntax error in file {}", dataPath, e);
         }
         catch (IOException e) 
         {
-            log.error("Could not read JSON from file {}", jsonPath, e);
+            log.error("Could not read JSON from file {}", dataPath, e);
         }
     }
     
@@ -93,15 +96,22 @@ public class TaskServiceImpl implements TaskService
     
     private WikiLink[] createWikiLinks(Task task)
     {
-        String baseUrl = "https://oldschool.runescape.wiki/w/";
-        List<WikiLink> urls = new ArrayList<>();
+        List<WikiLink> links = new ArrayList<>();
         
-        urls.add(new WikiLink(task.name, baseUrl + task.name));
-        for(String variant : task.variants) 
+        links.add(createWikiLink(task.name));
+        
+        for (String variant : task.variants) 
         {
-            urls.add(new WikiLink(variant, baseUrl + variant));
+            links.add(createWikiLink(variant));
         }
         
-        return urls.toArray(new WikiLink[0]);
+        return links.toArray(new WikiLink[0]);
+    }
+    
+    private WikiLink createWikiLink(String name)
+    {
+        String url = baseWikiUrl + name.replace(' ', '_');
+        
+        return new WikiLink(name, url);
     }
 }

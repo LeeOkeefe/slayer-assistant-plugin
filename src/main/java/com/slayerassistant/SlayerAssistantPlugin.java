@@ -27,11 +27,15 @@ public class SlayerAssistantPlugin extends Plugin
 	
 	private NavigationButton navButton;
 
+	public static final String TASKS_JSON_PATH = "/data/tasks.json";
+	public static final String WIKI_URL = "https://oldschool.runescape.wiki/w/";
+
     @Override
 	public void configure(Binder binder)
 	{
-        binder.bind(TaskService.class)
-				.toInstance(new TaskServiceImpl("/data/tasks.json"));
+        binder
+			.bind(TaskService.class)
+			.toInstance(new TaskServiceImpl(TASKS_JSON_PATH, WIKI_URL));
 	}
 
 	@Override
