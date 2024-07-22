@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
+import com.slayerassistant.rebuild.domain.Task;
+import com.slayerassistant.rebuild.domain.WikiLink;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,7 +33,12 @@ public class TaskServiceImpl implements TaskService
         {
             Type type = new TypeToken<Map<String, Task>>() {}.getType();
             Map<String, Task> data = new Gson().fromJson(reader, type);
-            data.forEach((key, value) -> tasks.put(key.toLowerCase(), value));
+            
+            data.forEach((key, value) -> 
+            {
+                value.wikiLinks = createWikiLinks(value);
+                tasks.put(key.toLowerCase(), value);
+            });
         } 
         catch (JsonSyntaxException e) 
         {
@@ -80,7 +87,21 @@ public class TaskServiceImpl implements TaskService
         return tasks
                 .values()
                 .stream()
-                .filter(m -> m.name.contains(searchTerm))
+                .filter(m -> m.name.toLowerCase().contains(searchTerm))
                 .toArray(Task[]::new);
+    }
+    
+    private WikiLink[] createWikiLinks(Task task)
+    {
+        String baseUrl = "https://oldschool.runescape.wiki/w/";
+        List<WikiLink> urls = new ArrayList<>();
+        
+        urls.add(new WikiLink(task.name, baseUrl + task.name));
+        for(String variant : task.variants) 
+        {
+            urls.add(new WikiLink(variant, baseUrl + variant));
+        }
+        
+        return urls.toArray(new WikiLink[0]);
     }
 }

@@ -1,5 +1,8 @@
 package com.slayerassistant;
 
+import com.google.inject.Binder;
+import com.slayerassistant.rebuild.services.TaskService;
+import com.slayerassistant.rebuild.services.TaskServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
@@ -19,13 +22,22 @@ public class SlayerAssistantPlugin extends Plugin
 	@Inject
 	private ClientToolbar clientToolbar;
 	
+	@Inject
 	private SlayerPluginPanel slayerPanel;
+	
 	private NavigationButton navButton;
+
+    @Override
+	public void configure(Binder binder)
+	{
+        binder.bind(TaskService.class)
+				.toInstance(new TaskServiceImpl("/data/tasks.json"));
+	}
 
 	@Override
 	protected void startUp()
 	{
-		slayerPanel = injector.getInstance(SlayerPluginPanel.class);
+		injector.injectMembers(this);
 
 		navButton = getNavButton();
 

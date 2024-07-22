@@ -1,8 +1,7 @@
 package com.slayerassistant;
 
-import com.google.inject.Inject;
-import com.slayerassistant.data.SlayerDataLoader;
-import com.slayerassistant.domain.SlayerTask;
+import com.slayerassistant.rebuild.domain.Task;
+import com.slayerassistant.rebuild.services.TaskService;
 import com.slayerassistant.userinterface.ScrollableTextArea;
 import com.slayerassistant.userinterface.*;
 import lombok.extern.slf4j.Slf4j;
@@ -10,46 +9,48 @@ import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.util.ImageUtil;
 
 import javax.annotation.Nullable;
+import javax.inject.Inject;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
+import java.util.Comparator;
 import java.util.Objects;
 
 @Slf4j
 public class SlayerPluginPanel extends PluginPanel
 {
-    private final SlayerManager slayerManager;
-    private final SelectList<SlayerTask> slayerTasksList;
+    private final TaskService taskService;
+    
+    private final SelectList<Task> taskSelectList;
     private final SearchBar searchBar;
 
     private final String[] tabImageNamesWithExtensions = new String[] {"compass.png", "inventory.png", "combat.png", "slayer_icon.png", "wiki.png"};
     private final String[] tableHeaders = new String[] {"Attack styles", "Attributes"};
 
     @Inject
-    public SlayerPluginPanel()
+    public SlayerPluginPanel(TaskService taskService)
     {
-        slayerManager = new SlayerManager(new SlayerDataLoader());
+        this.taskService = taskService;
+        
+        taskSelectList = new SelectList<>(new SlayerTaskRenderer(), this::openTask);
 
-        slayerTasksList = new SelectList<>(new SlayerTaskRenderer(), this::openTask);
-
-        slayerTasksList.set(slayerManager.getAllSlayerTasks());
+        //taskSelectList.set(taskService.getAll());
 
         searchBar = new SearchBar(handleOnKeyChanged(), handleOnClear());
 
         add(searchBar.getSearchBar());
-        setTaskSelectList(slayerManager.getAllSlayerTasks());
+        setTaskSelectList(taskService.getAll(Comparator.comparing(t -> t.name)));
     }
 
-    public void setTaskSelectList(Collection<SlayerTask> tasks)
+    public void setTaskSelectList(Task[] tasks)
     {
         removeComponents(new Component[] { searchBar.getSearchBar() });
 
-        slayerTasksList.set(tasks);
+        taskSelectList.set(tasks);
 
-        JList<SlayerTask> items = slayerTasksList.getItems();
+        JList<Task> items = taskSelectList.getItems();
 
         JScrollPane scrollPane = new JScrollPane(items);
         scrollPane.setPreferredSize(new Dimension(0, 200));
@@ -60,10 +61,10 @@ public class SlayerPluginPanel extends PluginPanel
         repaint();
     }
 
-    private void openTask(SlayerTask task)
+    private void openTask(Task task)
     {
         removeComponents(null);
-        add(createHeader(task.monster));
+        add(createHeader(task.name));
         add(createTabView(task).getTabbedPane());
         JButton closeButton = new JButton("Close");
         closeButton.addActionListener(e ->
@@ -78,7 +79,7 @@ public class SlayerPluginPanel extends PluginPanel
     {
         removeComponents(null);
         add(searchBar.getSearchBar());
-        setTaskSelectList(slayerManager.getAllSlayerTasks());
+        setTaskSelectList(taskService.getAll());
     }
 
     private JPanel createHeader(String monster)
@@ -105,7 +106,7 @@ public class SlayerPluginPanel extends PluginPanel
         return new Header(font, monster, Color.ORANGE, imageIcon, SwingConstants.CENTER).getHeader();
     }
 
-    private TabView createTabView(SlayerTask task)
+    private TabView createTabView(Task task)
     {
         TabView tabView = new TabView();
 
@@ -118,16 +119,14 @@ public class SlayerPluginPanel extends PluginPanel
         }
 
         String locations = convertStringsToLineSeparatedString(task.locations);
-        String masters = convertStringsToLineSeparatedString(task.slayerMasters);
-        String items = convertStringsToLineSeparatedString(Arrays.stream(task.itemsRequired)
-                                           .map(i -> i.name)
-                                           .toArray(String[]::new));
+        String masters = convertStringsToLineSeparatedString(task.masters);
+        String items = convertStringsToLineSeparatedString(task.itemsRequired);
 
         Tab locationTab = new Tab(icons.get(0), new ScrollableTextArea(locations).getScrollPane());
         Tab itemTab = new Tab(icons.get(1), new ScrollableTextArea(items).getScrollPane());
         Tab combatTab = new Tab(icons.get(2), new Table(tableHeaders, task.attackStyles, task.attributes).getTable());
         Tab masterTab = new Tab(icons.get(3), new ScrollableTextArea(masters).getScrollPane());
-        Tab wikiTab = new Tab(icons.get(4), new ButtonUrlPanel(task.wikiUrls).getPanel());
+        Tab wikiTab = new Tab(icons.get(4), new ButtonUrlPanel(task.wikiLinks).getPanel());
 
         tabView.addTabs(new Tab[] { locationTab, itemTab, combatTab, masterTab, wikiTab });
 
@@ -161,9 +160,9 @@ public class SlayerPluginPanel extends PluginPanel
         return () ->
         {
             String text = searchBar.getSearchBar().getText();
-            Collection<SlayerTask> tasks = Objects.equals(text, "") || Objects.equals(text, null)
-                    ? slayerManager.getAllSlayerTasks()
-                    : slayerManager.getSlayerTasksByPartialName(text);
+            Task[] tasks = Objects.equals(text, "") || Objects.equals(text, null)
+                    ? taskService.getAll()
+                    : taskService.searchPartialName(text);
 
             setTaskSelectList(tasks);
         };
@@ -171,6 +170,6 @@ public class SlayerPluginPanel extends PluginPanel
 
     private Runnable handleOnClear()
     {
-        return () -> setTaskSelectList(slayerManager.getAllSlayerTasks());
+        return () -> setTaskSelectList(taskService.getAll());
     }
 }
