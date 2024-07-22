@@ -28,19 +28,15 @@ public class SelectListTest
     {
         SelectList<String> selectList = new SelectList(new DefaultListCellRenderer(), (s) -> {});
 
-        Collection<String> oldItems = new ArrayList<>();
-        oldItems.add("item1");
-
-        Collection<String> newItems = new ArrayList<>();
-        newItems.add("item3");
-        newItems.add("item2");
+        String[] oldItems = new String[]{ "item1" };
+        String[] newItems = new String[] { "item3", "item2" };
 
         selectList.set(oldItems);
         selectList.set(newItems);
 
         JList<String> actualItems = selectList.getItems();
 
-        Assert.assertEquals(actualItems.getModel().getElementAt(0), newItems.toArray()[0]);
-        Assert.assertEquals(actualItems.getModel().getElementAt(1), newItems.toArray()[1]);
+        Assert.assertEquals(actualItems.getModel().getElementAt(0), newItems[0]);
+        Assert.assertEquals(actualItems.getModel().getElementAt(1), newItems[1]);
     }
 }

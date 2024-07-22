@@ -1,15 +1,12 @@
 package com.slayerassistant.userinterface;
 
-import com.slayerassistant.domain.SlayerTask;
+import com.slayerassistant.rebuild.domain.Task;
 import lombok.Getter;
 
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionListener;
-import java.util.Collection;
 import java.util.Objects;
 import java.util.function.Consumer;
 
@@ -18,7 +15,7 @@ public class SelectList<T>
     @Getter
     private final JList<T> items = new JList<>();
 
-    public SelectList(ListCellRenderer<T> listCellRenderer, Consumer<SlayerTask> onClickHandler)
+    public SelectList(ListCellRenderer<T> listCellRenderer, Consumer<Task> onClickHandler)
     {
         Objects.requireNonNull(onClickHandler, "Click handler cannot be null");
 
@@ -29,7 +26,7 @@ public class SelectList<T>
         items.setOpaque(false);
     }
 
-    public void set(Collection<T> items)
+    public void set(T[] items)
     {
         DefaultListModel<T> models = new DefaultListModel<>();
 
@@ -42,7 +39,7 @@ public class SelectList<T>
         this.items.setModel(models);
     }
 
-    private MouseAdapter getMouseAdapter(Consumer<SlayerTask> onClickHandler)
+    private MouseAdapter getMouseAdapter(Consumer<Task> onClickHandler)
     {
         return new MouseAdapter()
         {
@@ -54,7 +51,7 @@ public class SelectList<T>
                     int index = list.locationToIndex(mouseEvent.getPoint());
                     if (index >= 0)
                     {
-                        SlayerTask selected = (SlayerTask) list.getModel().getElementAt(index);
+                        Task selected = (Task) list.getModel().getElementAt(index);
                         onClickHandler.accept(selected);
                     }
                 }
@@ -80,7 +77,7 @@ public class SelectList<T>
             {
                 JList list = (JList) e.getSource();
                 int index = list.locationToIndex(e.getPoint());
-                SlayerTask task = (SlayerTask) list.getModel().getElementAt(index);
+                Task task = (Task) list.getModel().getElementAt(index);
                 list.setSelectedValue(task, false);
             }
         };

@@ -1,5 +1,5 @@
 package com.slayerassistant.userinterface;
-import com.slayerassistant.domain.WikiUrl;
+import com.slayerassistant.rebuild.domain.WikiLink;
 
 import net.runelite.client.util.LinkBrowser;
 
@@ -13,13 +13,13 @@ public class ButtonUrlPanel {
     @Getter
     private final JPanel panel = new JPanel();
 
-    public ButtonUrlPanel(WikiUrl[] wikiUrls) {
+    public ButtonUrlPanel(WikiLink[] wikiLinks) {
         GridBagLayout gridLayout = new GridBagLayout();
 
         panel.setLayout(gridLayout);
 
         int row = 0;
-        for (WikiUrl wikiUrl: wikiUrls) {
+        for (WikiLink wikiLink : wikiLinks) {
             GridBagConstraints c = new GridBagConstraints();
 
             c.gridy = row;
@@ -27,7 +27,7 @@ public class ButtonUrlPanel {
             c.weightx = 1.0;
             c.insets = new Insets(2,2,2,2);
 
-            panel.add(CreateButton(wikiUrl.linkName, wikiUrl.linkUrl), c);
+            panel.add(CreateButton(wikiLink.name, wikiLink.url), c);
 
             row++;
         }
