@@ -1,5 +1,7 @@
 package com.slayerassistant.rebuild.services;
 
+import com.slayerassistant.rebuild.domain.Task;
+
 import java.util.Comparator;
 
 public interface TaskService 

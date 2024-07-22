@@ -1,4 +1,4 @@
-package com.slayerassistant.rebuild.services;
+package com.slayerassistant.rebuild.domain;
 
 public class Task 
 {
@@ -10,6 +10,7 @@ public class Task
     public String[] attackStyles;
     public String[] variants;
     public String[] masters;
+    public WikiLink[] wikiLinks;
 
     public Task(
             String name,
@@ -19,7 +20,8 @@ public class Task
             String[] attributes,
             String[] attackStyles,
             String[] variants,
-            String[] masters) 
+            String[] masters,
+            WikiLink[] wikiLinks) 
     {
         this.name = name;
         this.levelRequired = levelRequired;
@@ -29,5 +31,6 @@ public class Task
         this.attackStyles = attackStyles;
         this.variants = variants;
         this.masters = masters;
+        this.wikiLinks = wikiLinks;
     }
 }
