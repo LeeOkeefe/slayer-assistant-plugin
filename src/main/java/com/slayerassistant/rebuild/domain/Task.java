@@ -1,9 +1,12 @@
 package com.slayerassistant.rebuild.domain;
 
+import java.awt.image.BufferedImage;
+
 public class Task 
 {
     public String name;
     public int levelRequired;
+    public BufferedImage image;
     public String[] itemsRequired;
     public String[] locations;
     public String[] attributes;
@@ -15,6 +18,7 @@ public class Task
     public Task(
             String name,
             int levelRequired,
+            BufferedImage image,
             String[] itemsRequired,
             String[] locations,
             String[] attributes,
@@ -25,6 +29,7 @@ public class Task
     {
         this.name = name;
         this.levelRequired = levelRequired;
+        this.image = image;
         this.itemsRequired = itemsRequired;
         this.locations = locations;
         this.attributes = attributes;

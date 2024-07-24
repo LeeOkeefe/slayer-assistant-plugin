@@ -8,8 +8,10 @@ import com.slayerassistant.rebuild.domain.Task;
 import com.slayerassistant.rebuild.domain.WikiLink;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
+import net.runelite.client.util.ImageUtil;
 
 import javax.inject.Singleton;
+import java.awt.image.BufferedImage;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.util.*;
@@ -20,10 +22,15 @@ public class TaskServiceImpl implements TaskService
 {
     private final Map<String, Task> tasks = new HashMap<>();
     private final String baseWikiUrl;
+    private final String baseImagesPath;
     
-    public TaskServiceImpl(@NonNull String dataPath, @NonNull String baseWikiUrl)
+    public TaskServiceImpl(
+            @NonNull String dataPath,
+            @NonNull String baseWikiUrl,
+            @NonNull String baseImagesPath)
     {
         this.baseWikiUrl = baseWikiUrl;
+        this.baseImagesPath = baseImagesPath;
         
         InputStream inputStream = this.getClass().getResourceAsStream(dataPath);
 
@@ -40,6 +47,7 @@ public class TaskServiceImpl implements TaskService
             data.forEach((key, value) -> 
             {
                 value.wikiLinks = createWikiLinks(value);
+                value.image = getImage(value.name);
                 tasks.put(key.toLowerCase(), value);
             });
         } 
@@ -113,5 +121,14 @@ public class TaskServiceImpl implements TaskService
         String url = baseWikiUrl + name.replace(' ', '_');
         
         return new WikiLink(name, url);
+    }
+    
+    private BufferedImage getImage(String name)
+    {
+        String normalizedName = name.replace(' ', '_').toLowerCase();
+        String path = baseImagesPath + normalizedName + ".png";
+        
+        BufferedImage image = ImageUtil.loadImageResource(getClass(), path);
+        return ImageUtil.resizeImage(image, image.getWidth() / 2, image.getHeight() / 2);
     }
 }
