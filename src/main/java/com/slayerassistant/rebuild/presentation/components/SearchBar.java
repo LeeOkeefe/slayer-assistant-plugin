@@ -21,8 +21,6 @@ public class SearchBar
         searchBar.getDocument().addDocumentListener(onChangeListener);
         
         initialiseStyles();
-        
-        searchBar.setText("");
     }
     
     public Component getComponent()
