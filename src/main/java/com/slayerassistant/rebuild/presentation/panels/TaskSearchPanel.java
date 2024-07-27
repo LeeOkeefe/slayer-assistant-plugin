@@ -25,6 +25,12 @@ public class TaskSearchPanel extends JPanel
         add(selectList, BorderLayout.CENTER);
     }
     
+    public void shutDown()
+    {
+        searchBar.shutDown();
+        selectList.shutDown();
+    }
+    
     public void updateTaskList(Task[] tasks)
     {
         selectList.update(tasks);

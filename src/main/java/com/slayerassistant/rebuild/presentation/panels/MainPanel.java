@@ -25,6 +25,11 @@ public class MainPanel extends PluginPanel
         taskSearchPanel.updateTaskList(taskService.getAll());
     }
     
+    public void shutDown()
+    {
+        taskSearchPanel.shutDown();
+    }
+    
     private void onSearchBarChanged(String searchTerm)
     {
         Task[] matchedTasks = searchTerm.isBlank()
