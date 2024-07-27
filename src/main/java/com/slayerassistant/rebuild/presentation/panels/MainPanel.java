@@ -12,7 +12,7 @@ public class MainPanel extends PluginPanel
     private final TaskService taskService;
     
     private final TaskSearchPanel taskSearchPanel = new TaskSearchPanel(this::onSearchBarChanged, this::onTaskSelected);
-    private final TaskSelectedPanel taskSelectedPanel = new TaskSelectedPanel();
+    private final TaskSelectedPanel taskSelectedPanel = new TaskSelectedPanel(this::onTaskClosed);
     
     @Inject
     public MainPanel(TaskService taskService)
@@ -28,6 +28,7 @@ public class MainPanel extends PluginPanel
     public void shutDown()
     {
         taskSearchPanel.shutDown();
+        taskSelectedPanel.shutDown();
     }
     
     private void onSearchBarChanged(String searchTerm)
@@ -45,5 +46,10 @@ public class MainPanel extends PluginPanel
         // TODO: Update tab content to show selected task data
         //
         taskSelectedPanel.updateHeader(task.name, new ImageIcon(task.image));
+    }
+    
+    private void onTaskClosed()
+    {
+        System.out.println("Task closed.");
     }
 }
