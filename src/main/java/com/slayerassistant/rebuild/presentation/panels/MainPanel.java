@@ -45,7 +45,7 @@ public class MainPanel extends PluginPanel
         // TODO: Hide TaskSearch on task selected
         // TODO: Update tab content to show selected task data
         //
-        taskSelectedPanel.updateHeader(task.name, new ImageIcon(task.image));
+        taskSelectedPanel.update(task);
     }
     
     private void onTaskClosed()
