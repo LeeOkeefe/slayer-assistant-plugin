@@ -4,15 +4,15 @@ import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.ui.components.IconTextField;
 
+import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.util.function.Consumer;
 
-public class SearchBar 
+public class SearchBar extends JPanel
 {
-    private IconTextField searchBar = new IconTextField();
-
+    private final IconTextField searchBar = new IconTextField();
     private final DocumentListener onChangeListener;
     
     public SearchBar(Consumer<String> onChange)
@@ -21,20 +21,13 @@ public class SearchBar
         searchBar.getDocument().addDocumentListener(onChangeListener);
         
         initialiseStyles();
-    }
-    
-    public Component getComponent()
-    {
-        return searchBar;
+        
+        add(searchBar);
     }
     
     public void shutDown()
     {
-        if (searchBar != null) 
-        {
-            searchBar.getDocument().removeDocumentListener(onChangeListener);
-            searchBar = null;
-        }
+        searchBar.getDocument().removeDocumentListener(onChangeListener);
     }
     
     private DocumentListener createDocumentListener(Consumer<String> handler)
