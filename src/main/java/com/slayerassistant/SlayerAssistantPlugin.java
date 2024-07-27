@@ -1,6 +1,7 @@
 package com.slayerassistant;
 
 import com.google.inject.Binder;
+import com.slayerassistant.rebuild.presentation.panels.MainPanel;
 import com.slayerassistant.rebuild.services.TaskService;
 import com.slayerassistant.rebuild.services.TaskServiceImpl;
 import lombok.extern.slf4j.Slf4j;
@@ -23,19 +24,20 @@ public class SlayerAssistantPlugin extends Plugin
 	private ClientToolbar clientToolbar;
 	
 	@Inject
-	private SlayerPluginPanel slayerPanel;
+	private MainPanel slayerPanel;
 	
 	private NavigationButton navButton;
 
-	public static final String TASKS_JSON_PATH = "/data/tasks.json";
-	public static final String WIKI_URL = "https://oldschool.runescape.wiki/w/";
+	private static final String TASKS_JSON_PATH = "/data/tasks.json";
+	private static final String WIKI_URL = "https://oldschool.runescape.wiki/w/";
+	private static final String BASE_IMAGES_PATH = "/images/monsters/";
 
     @Override
 	public void configure(Binder binder)
 	{
         binder
 			.bind(TaskService.class)
-			.toInstance(new TaskServiceImpl(TASKS_JSON_PATH, WIKI_URL));
+			.toInstance(new TaskServiceImpl(TASKS_JSON_PATH, WIKI_URL, BASE_IMAGES_PATH));
 	}
 
 	@Override
@@ -52,6 +54,7 @@ public class SlayerAssistantPlugin extends Plugin
 	protected void shutDown()
 	{
 		clientToolbar.removeNavigation(navButton);
+		slayerPanel.shutDown();
 	}
 
 	private NavigationButton getNavButton()
@@ -66,7 +69,7 @@ public class SlayerAssistantPlugin extends Plugin
 		{
 			log.error(String.format("Could not find image resource at %s", getClass() + "/images/slayer_icon.png"), e);
 		}
-
+		
 		return NavigationButton.builder()
 				.tooltip("Slayer assistant")
 				.icon(bufferedImage)
