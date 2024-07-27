@@ -1,6 +1,7 @@
 package com.slayerassistant;
 
 import com.google.inject.Binder;
+import com.slayerassistant.rebuild.domain.Icon;
 import com.slayerassistant.rebuild.presentation.panels.MainPanel;
 import com.slayerassistant.rebuild.services.TaskService;
 import com.slayerassistant.rebuild.services.TaskServiceImpl;
@@ -9,10 +10,8 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
-import net.runelite.client.util.ImageUtil;
 
 import javax.inject.Inject;
-import java.awt.image.BufferedImage;
 
 @Slf4j
 @PluginDescriptor(
@@ -24,7 +23,7 @@ public class SlayerAssistantPlugin extends Plugin
 	private ClientToolbar clientToolbar;
 	
 	@Inject
-	private MainPanel slayerPanel;
+	private MainPanel mainPanel;
 	
 	private NavigationButton navButton;
 
@@ -54,27 +53,16 @@ public class SlayerAssistantPlugin extends Plugin
 	protected void shutDown()
 	{
 		clientToolbar.removeNavigation(navButton);
-		slayerPanel.shutDown();
+		mainPanel.shutDown();
 	}
 
 	private NavigationButton getNavButton()
 	{
-		BufferedImage bufferedImage = null;
-
-		try
-		{
-			bufferedImage = ImageUtil.loadImageResource(getClass(), "/images/slayer_icon.png");
-		}
-		catch(NullPointerException e)
-		{
-			log.error(String.format("Could not find image resource at %s", getClass() + "/images/slayer_icon.png"), e);
-		}
-		
 		return NavigationButton.builder()
 				.tooltip("Slayer assistant")
-				.icon(bufferedImage)
+				.icon(Icon.SLAYER_SKILL.getImage())
 				.priority(10)
-				.panel(slayerPanel)
+				.panel(mainPanel)
 				.build();
 	}
 }
