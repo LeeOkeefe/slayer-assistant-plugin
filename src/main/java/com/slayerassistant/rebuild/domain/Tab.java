@@ -1,4 +1,4 @@
-package com.slayerassistant.rebuild.presentation.components.tabs;
+package com.slayerassistant.rebuild.domain;
 
 public interface Tab<T> 
 {
