@@ -27,7 +27,7 @@ public class TaskSelectedPanel extends JPanel
         add(taskTabs, BorderLayout.CENTER);
         add(closeButton, BorderLayout.SOUTH);
     }
-    
+
     public void shutDown()
     {
         taskTabs.shutDown();
