@@ -1,24 +1,25 @@
 package com.slayerassistant.rebuild.presentation.components;
 
 import com.slayerassistant.rebuild.domain.Icon;
-import com.slayerassistant.rebuild.domain.WikiLink;
-import com.slayerassistant.rebuild.presentation.components.tabs.Tab;
-import com.slayerassistant.rebuild.presentation.components.tabs.TabKey;
-import com.slayerassistant.rebuild.presentation.components.tabs.TextTab;
-import com.slayerassistant.rebuild.presentation.components.tabs.WikiTab;
+import com.slayerassistant.rebuild.domain.Tab;
+import com.slayerassistant.rebuild.domain.TabKey;
+import com.slayerassistant.rebuild.domain.Task;
+import com.slayerassistant.rebuild.presentation.components.tabs.*;
+import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.ui.laf.RuneLiteTabbedPaneUI;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.EnumMap;
 import java.util.HashMap;
 import java.util.Map;
 
+@Slf4j
 public class TaskTabs extends JTabbedPane 
 {
     private final Map<TabKey, Tab<?>> tabMap = new HashMap<>();
 
-    public TaskTabs() {
+    public TaskTabs() 
+    {
         setUI(new RuneLiteTabbedPaneUI() 
         {
             @Override
@@ -27,61 +28,47 @@ public class TaskTabs extends JTabbedPane
                 return getWidth() / getTabCount();
             }
         });
-
-        setTab(TabKey.LOCATIONS, Icon.COMPASS.getIcon(), new TextTab(), "Locations");
-        setTab(TabKey.ITEMS_REQUIRED, Icon.INVENTORY.getIcon(), new TextTab(), "Items required");
-        setTab(TabKey.COMBAT, Icon.COMBAT.getIcon(), new TextTab(), "Combat");
-        setTab(TabKey.MASTERS, Icon.SLAYER_SKILL.getIcon(), new TextTab(), "Slayer masters");
-        setTab(TabKey.WIKI, Icon.WIKI.getIcon(), new WikiTab(), "Wiki");
+        
+        TabKey locations = TabKey.LOCATIONS;
+        TabKey items = TabKey.ITEMS_REQUIRED;
+        TabKey combat = TabKey.COMBAT;
+        TabKey masters = TabKey.MASTERS;
+        TabKey wiki = TabKey.WIKI;
+        
+        setTab(locations, Icon.COMPASS.getIcon(), new TextTab(), locations.getName());
+        setTab(items, Icon.INVENTORY.getIcon(), new TextTab(), items.getName());
+        setTab(combat, Icon.COMBAT.getIcon(), new TableTab(new String[] { "Attack Styles", "Attributes" }), combat.getName());
+        setTab(masters, Icon.SLAYER_SKILL.getIcon(), new TextTab(), masters.getName());
+        setTab(wiki, Icon.WIKI.getIcon(), new WikiTab(), wiki.getName());
     }
 
     public void shutDown() 
     {
         tabMap.values().forEach(Tab::shutDown);
     }
-
-    public void updateLocations(String[] locations) 
+    
+    public void update(Task task)
     {
-        updateTab(TabKey.LOCATIONS, locations);
+        updateTab(TabKey.LOCATIONS, task.locations);
+        updateTab(TabKey.ITEMS_REQUIRED, task.itemsRequired);
+        updateTab(TabKey.COMBAT, new Object[][] { task.attackStyles, task.attributes });
+        updateTab(TabKey.MASTERS, task.masters);
+        updateTab(TabKey.WIKI, task.wikiLinks);
     }
-
-    public void updateItemsRequired(String[] items) 
-    {
-        updateTab(TabKey.ITEMS_REQUIRED, items);
-    }
-
-    public void updateCombat(String[] attackStyles, String[] attributes) 
-    {
-        //updateTab(TabKey.COMBAT, new Object[][]{ attackStyles, attributes });
-    }
-
-    public void updateMasters(String[] masters) 
-    {
-        updateTab(TabKey.MASTERS, masters);
-    }
-
-    public void updateWikiLinks(WikiLink[] wikiLinks) 
-    {
-        updateTab(TabKey.WIKI, wikiLinks);
-    }
-
+    
     private <T> void updateTab(TabKey key, T data) 
     {
-        Tab<?> tab = tabMap.get(key);
-        if (tab == null) 
+        Tab<?> rawTab = tabMap.get(key);
+
+        if (rawTab == null) 
         {
-            throw new IllegalArgumentException("No tab found for key: " + key);
+            log.error("No tab found with key {}", key.toString());
+            return;
         }
 
-        try
-        {
-            Tab<T> typedTab = (Tab<T>) tab;
-            typedTab.update(data);
-        }
-        catch (ClassCastException e)
-        {
-            throw new IllegalArgumentException("Invalid data type for tab: " + key, e);
-        }
+        @SuppressWarnings("unchecked")
+        Tab<T> tab = (Tab<T>) rawTab;
+        tab.update(data);
     }
 
     private void setTab(TabKey key, ImageIcon icon, Tab<?> tab, String tip) 
