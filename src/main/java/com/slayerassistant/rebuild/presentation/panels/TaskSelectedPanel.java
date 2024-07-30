@@ -37,11 +37,7 @@ public class TaskSelectedPanel extends JPanel
     public void update(Task task)
     {
         header.update(task.name, new ImageIcon(task.image));
-        taskTabs.updateLocations(task.locations);
-        taskTabs.updateItemsRequired(task.itemsRequired);
-        taskTabs.updateCombat(task.attackStyles, task.attributes);
-        taskTabs.updateMasters(task.masters);
-        taskTabs.updateWikiLinks(task.wikiLinks);
+        taskTabs.update(task);
     }
 }
 

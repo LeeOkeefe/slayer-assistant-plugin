@@ -5,7 +5,6 @@ import com.slayerassistant.rebuild.services.TaskService;
 import net.runelite.client.ui.PluginPanel;
 
 import javax.inject.Inject;
-import javax.swing.*;
 
 public class MainPanel extends PluginPanel
 {
