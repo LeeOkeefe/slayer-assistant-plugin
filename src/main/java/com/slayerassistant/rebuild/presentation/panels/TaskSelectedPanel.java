@@ -21,7 +21,7 @@ public class TaskSelectedPanel extends JPanel
         this.onClickListener = e -> onClose.run();
         closeButton.addActionListener(this.onClickListener);
         
-        setLayout(new BorderLayout());
+        setLayout(new BorderLayout(0, 10));
         
         add(header, BorderLayout.NORTH);
         add(taskTabs, BorderLayout.CENTER);

@@ -18,7 +18,8 @@ public class TextTab extends JTextArea implements Tab<String[]>
     @Override
     public void update(String[] data) 
     {
-        setText(String.join("\n\n", data));
+        String text = data.length == 0 ? "None" : String.join("\n\n", data);
+        setText(text);
     }
 
     @Override
