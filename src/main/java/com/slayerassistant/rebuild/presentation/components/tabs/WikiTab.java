@@ -1,5 +1,6 @@
 package com.slayerassistant.rebuild.presentation.components.tabs;
 
+import com.slayerassistant.rebuild.domain.Tab;
 import com.slayerassistant.rebuild.domain.WikiLink;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.util.LinkBrowser;
@@ -7,13 +8,13 @@ import net.runelite.client.util.LinkBrowser;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 @Slf4j
 public class WikiTab extends JPanel implements Tab<WikiLink[]> 
 {
-    private final Map<JButton, ActionListener> buttonListenerMap = new HashMap<>();
+    private final List<JButton> buttons = new ArrayList<>();
 
     public WikiTab() 
     {
@@ -21,19 +22,18 @@ public class WikiTab extends JPanel implements Tab<WikiLink[]>
     }
 
     @Override
-    public void update(WikiLink[] data)
+    public void update(WikiLink[] wikiLinks)
     {
         removeExistingButtons();
 
         add(Box.createVerticalStrut(5));
         
-        for (WikiLink link : data) 
+        for (WikiLink wikiLink : wikiLinks) 
         {
-            JButton button = new JButton(link.name);
+            JButton button = new JButton(wikiLink.name);
             button.setMaximumSize(new Dimension(Integer.MAX_VALUE, button.getMinimumSize().height));
-            ActionListener listener = e -> LinkBrowser.browse(link.url);
-            button.addActionListener(listener);
-            buttonListenerMap.put(button, listener);
+            button.addActionListener(e -> LinkBrowser.browse(wikiLink.url));
+            buttons.add(button);
             
             add(Box.createVerticalStrut(5));
             add(button);
@@ -51,16 +51,15 @@ public class WikiTab extends JPanel implements Tab<WikiLink[]>
 
     private void removeExistingButtons() 
     {
-        if (!buttonListenerMap.isEmpty()) 
+        for (JButton button : buttons)
         {
-            for (Map.Entry<JButton, ActionListener> entry : buttonListenerMap.entrySet()) 
+            ActionListener[] listeners = button.getActionListeners();
+            for (ActionListener listener : listeners)
             {
-                JButton button = entry.getKey();
-                ActionListener listener = entry.getValue();
                 button.removeActionListener(listener);
             }
-            buttonListenerMap.clear();
         }
+        buttons.clear();
         removeAll();
     }
 }
