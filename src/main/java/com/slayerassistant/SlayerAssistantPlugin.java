@@ -1,6 +1,7 @@
 package com.slayerassistant;
 
 import com.google.inject.Binder;
+import com.slayerassistant.rebuild.GlobalThemeManager;
 import com.slayerassistant.rebuild.domain.Icon;
 import com.slayerassistant.rebuild.presentation.panels.MainPanel;
 import com.slayerassistant.rebuild.services.TaskService;
@@ -42,6 +43,8 @@ public class SlayerAssistantPlugin extends Plugin
 	@Override
 	protected void startUp()
 	{
+		GlobalThemeManager.initialize();
+		
 		injector.injectMembers(this);
 
 		navButton = getNavButton();
