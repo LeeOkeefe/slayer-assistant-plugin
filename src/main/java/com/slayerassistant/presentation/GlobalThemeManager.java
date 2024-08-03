@@ -6,8 +6,6 @@ import javax.swing.*;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
 import java.awt.*;
-import java.io.IOException;
-import java.io.InputStream;
 
 public class GlobalThemeManager
 {
@@ -19,8 +17,8 @@ public class GlobalThemeManager
     
     private static void setFonts()
     {
-        Font defaultFont = createDefaultFont();
-        
+        Font defaultFont = new Font(Font.SANS_SERIF, Font.PLAIN, 14);
+
         UIManager.put("Table.font", new FontUIResource(defaultFont));
         UIManager.put("TextArea.font", new FontUIResource(defaultFont));
         UIManager.put("TextField.font", new FontUIResource(defaultFont));
@@ -40,23 +38,5 @@ public class GlobalThemeManager
         UIManager.put("Button.foreground", new ColorUIResource(defaultColour));
         UIManager.put("List.foreground", new ColorUIResource(defaultColour));
         UIManager.put("Label.foreground", new ColorUIResource(defaultColour));
-    }
-
-    private static Font createDefaultFont()
-    {
-        try
-        {
-            int baseFontSize = 13;
-            double dotsPerInch = 96.0;
-            int scaleFactor = (int) (Toolkit.getDefaultToolkit().getScreenResolution() / dotsPerInch);
-            
-            InputStream is = GlobalThemeManager.class.getResourceAsStream("/fonts/SFPRODISPLAYREGULAR.otf");
-            Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-            return font.deriveFont(Font.PLAIN, baseFontSize * scaleFactor);
-        }
-        catch (IOException | FontFormatException e)
-        {
-            return new Font(Font.SANS_SERIF, Font.PLAIN, 14);
-        }
     }
 }
