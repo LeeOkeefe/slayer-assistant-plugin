@@ -16,7 +16,9 @@ import javax.inject.Inject;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Slayer Assistant"
+	name = "Slayer Assistant",
+	description = "Assists with slayer task information",
+	tags = { "slay", "slayer", "assistant" }
 )
 public class SlayerAssistantPlugin extends Plugin
 {
