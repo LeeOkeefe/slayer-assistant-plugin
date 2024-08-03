@@ -11,6 +11,7 @@ public class TextTab extends JTextArea implements Tab<String[]>
     {
         setBackground(UIManager.getColor("TableHeader.background"));
         setMargin(new Insets(10, 5, 10, 5));
+        setLineWrap(true);
         setWrapStyleWord(true);
         setEnabled(false);
     }
