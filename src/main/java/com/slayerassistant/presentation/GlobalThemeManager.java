@@ -46,9 +46,13 @@ public class GlobalThemeManager
     {
         try
         {
+            int baseFontSize = 13;
+            double dotsPerInch = 96.0;
+            int scaleFactor = (int) (Toolkit.getDefaultToolkit().getScreenResolution() / dotsPerInch);
+            
             InputStream is = GlobalThemeManager.class.getResourceAsStream("/fonts/SFPRODISPLAYREGULAR.otf");
             Font font = Font.createFont(Font.TRUETYPE_FONT, is);
-            return font.deriveFont(Font.PLAIN, 14);
+            return font.deriveFont(Font.PLAIN, baseFontSize * scaleFactor);
         }
         catch (IOException | FontFormatException e)
         {
