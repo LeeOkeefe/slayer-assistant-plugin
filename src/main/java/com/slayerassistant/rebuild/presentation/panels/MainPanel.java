@@ -8,6 +8,7 @@ import net.runelite.client.ui.PluginPanel;
 import javax.inject.Inject;
 import javax.swing.*;
 import java.awt.*;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,7 +26,9 @@ public class MainPanel extends PluginPanel
     public MainPanel(TaskService taskService)
     {
         this.taskService = taskService;
-        taskSearchPanel.updateTaskList(taskService.getAll());
+        
+        Task[] orderedTasks = taskService.getAll(Comparator.comparing(t -> t.name));
+        taskSearchPanel.updateTaskList(orderedTasks);
 
         setLayout(new BorderLayout());
 
@@ -45,7 +48,7 @@ public class MainPanel extends PluginPanel
     private void onSearchBarChanged(String searchTerm)
     {
         Task[] matchedTasks = searchTerm.isBlank()
-                ? taskService.getAll()
+                ? taskService.getAll(Comparator.comparing(t -> t.name))
                 : taskService.searchPartialName(searchTerm.trim());
 
         taskSearchPanel.updateTaskList(matchedTasks);
