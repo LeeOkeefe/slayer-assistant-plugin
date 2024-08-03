@@ -5,6 +5,7 @@ import com.slayerassistant.rebuild.presentation.components.Header;
 import com.slayerassistant.rebuild.presentation.components.TaskTabs;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
@@ -22,6 +23,7 @@ public class TaskSelectedPanel extends JPanel
         closeButton.addActionListener(this.onClickListener);
         
         setLayout(new BorderLayout(0, 10));
+        setBorder(new EmptyBorder(5, 0, 0, 0));
         
         add(header, BorderLayout.NORTH);
         add(taskTabs, BorderLayout.CENTER);
