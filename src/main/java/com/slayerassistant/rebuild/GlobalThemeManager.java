@@ -15,7 +15,7 @@ public class GlobalThemeManager
     
     private static void setFonts()
     {
-        Font defaultFont = new Font("Arial", Font.PLAIN, 14);
+        Font defaultFont = new Font("Helvetica", Font.PLAIN, 14);
         
         UIManager.put("Table.font", new FontUIResource(defaultFont));
         UIManager.put("TextArea.font", new FontUIResource(defaultFont));

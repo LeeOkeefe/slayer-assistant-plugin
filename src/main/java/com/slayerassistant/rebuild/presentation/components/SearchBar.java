@@ -48,7 +48,7 @@ public class SearchBar extends JPanel
         searchBar.setIcon(IconTextField.Icon.SEARCH);
         searchBar.setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH, 30));
         searchBar.setBackground(ColorScheme.DARKER_GRAY_COLOR);
-        searchBar.setHoverBackgroundColor(ColorScheme.DARK_GRAY_HOVER_COLOR);
+        searchBar.setHoverBackgroundColor(ColorScheme.DARKER_GRAY_HOVER_COLOR);
         searchBar.setMinimumSize(new Dimension(0, 30));
     }
 }

@@ -64,9 +64,12 @@ public class MainPanel extends PluginPanel
 
     private void showPanel(Panel panel)
     {
-        currentPanelContainer.removeAll();
-        currentPanelContainer.add(panels.get(panel), BorderLayout.CENTER);
-        revalidate();
-        repaint();
+        SwingUtilities.invokeLater(() -> 
+        {
+            currentPanelContainer.removeAll();
+            currentPanelContainer.add(panels.get(panel), BorderLayout.CENTER);
+            revalidate();
+            repaint();
+        });
     }
 }
