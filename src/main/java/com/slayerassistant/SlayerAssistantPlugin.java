@@ -1,7 +1,7 @@
 package com.slayerassistant;
 
 import com.google.inject.Binder;
-import com.slayerassistant.rebuild.GlobalThemeManager;
+import com.slayerassistant.rebuild.presentation.GlobalThemeManager;
 import com.slayerassistant.rebuild.domain.Icon;
 import com.slayerassistant.rebuild.presentation.panels.MainPanel;
 import com.slayerassistant.rebuild.services.TaskService;
