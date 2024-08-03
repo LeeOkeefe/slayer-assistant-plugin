@@ -1,7 +1,6 @@
 package com.slayerassistant.presentation.components.tabs;
 
 import com.slayerassistant.domain.Tab;
-import com.sun.source.tree.ArrayAccessTree;
 
 import javax.swing.*;
 import javax.swing.text.*;

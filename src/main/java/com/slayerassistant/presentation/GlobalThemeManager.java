@@ -13,6 +13,7 @@ public class GlobalThemeManager
     {
         setFonts();
         setForegrounds();
+        setBackgrounds();
     }
     
     private static void setFonts()
@@ -38,5 +39,10 @@ public class GlobalThemeManager
         UIManager.put("Button.foreground", new ColorUIResource(defaultColour));
         UIManager.put("List.foreground", new ColorUIResource(defaultColour));
         UIManager.put("Label.foreground", new ColorUIResource(defaultColour));
+    }
+    
+    private static void setBackgrounds()
+    {
+        UIManager.put("TextPane.background", ColorScheme.DARKER_GRAY_COLOR);
     }
 }
