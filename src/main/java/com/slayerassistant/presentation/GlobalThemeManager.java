@@ -20,7 +20,7 @@ public class GlobalThemeManager
         Font defaultFont = new Font(Font.SANS_SERIF, Font.PLAIN, 14);
 
         UIManager.put("Table.font", new FontUIResource(defaultFont));
-        UIManager.put("TextArea.font", new FontUIResource(defaultFont));
+        UIManager.put("TextPane.font", new FontUIResource(defaultFont));
         UIManager.put("TextField.font", new FontUIResource(defaultFont));
         UIManager.put("Button.font", new FontUIResource(defaultFont));
         UIManager.put("List.font", new FontUIResource(defaultFont));
@@ -30,10 +30,10 @@ public class GlobalThemeManager
     
     private static void setForegrounds()
     {
-        Color defaultColour = ColorScheme.LIGHT_GRAY_COLOR;
+        Color defaultColour = ColorScheme.TEXT_COLOR;
         
         UIManager.put("Table.foreground", new ColorUIResource(defaultColour));
-        UIManager.put("TextArea.foreground", new ColorUIResource(defaultColour));
+        UIManager.put("TextPane.foreground", new ColorUIResource(defaultColour));
         UIManager.put("TextField.foreground", new ColorUIResource(defaultColour));
         UIManager.put("Button.foreground", new ColorUIResource(defaultColour));
         UIManager.put("List.foreground", new ColorUIResource(defaultColour));

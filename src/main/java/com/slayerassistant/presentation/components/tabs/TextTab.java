@@ -1,28 +1,61 @@
 package com.slayerassistant.presentation.components.tabs;
 
 import com.slayerassistant.domain.Tab;
+import com.sun.source.tree.ArrayAccessTree;
 
 import javax.swing.*;
+import javax.swing.text.*;
 import java.awt.*;
+import java.util.Arrays;
 
-public class TextTab extends JTextArea implements Tab<String[]> 
+public class TextTab extends JTextPane implements Tab<String[]>
 {
-    public TextTab() 
+    public TextTab()
     {
-        setBackground(UIManager.getColor("TableHeader.background"));
         setMargin(new Insets(10, 5, 10, 5));
-        setLineWrap(true);
-        setWrapStyleWord(true);
-        setEnabled(false);
+        setEditable(false);
+        setLineSpacing();
     }
-
+    
     @Override
-    public void update(String[] data) 
+    public void update(String[] data)
     {
-        String text = data.length == 0 ? "None" : String.join("\n\n", data);
-        setText(text);
+        resetParagraphs();
+        
+        if (data.length == 0)
+        {
+            addParagraph("None");
+            return;
+        }
+        Arrays.stream(data).forEach(this::addParagraph);
     }
 
     @Override
-    public void shutDown() {}
+    public void shutDown() { }
+    
+    private void addParagraph(String text)
+    {
+        StyledDocument doc = getStyledDocument();
+        try
+        {
+            doc.insertString(doc.getLength(), text + "\n", null);
+        }
+        catch (BadLocationException e)
+        {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void resetParagraphs()
+    {
+        setText("");
+    }
+
+    private void setLineSpacing()
+    {
+        selectAll();
+        MutableAttributeSet set = new SimpleAttributeSet(getParagraphAttributes());
+        StyleConstants.setLineSpacing(set, 0.5f);
+        setParagraphAttributes(set, true);
+    }
 }
