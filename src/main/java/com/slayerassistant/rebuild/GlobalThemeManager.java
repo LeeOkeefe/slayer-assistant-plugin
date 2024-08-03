@@ -6,6 +6,8 @@ import javax.swing.*;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
 import java.awt.*;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class GlobalThemeManager
 {
@@ -17,7 +19,7 @@ public class GlobalThemeManager
     
     private static void setFonts()
     {
-        Font defaultFont = new Font("Helvetica", Font.PLAIN, 14);
+        Font defaultFont = createDefaultFont();
         
         UIManager.put("Table.font", new FontUIResource(defaultFont));
         UIManager.put("TextArea.font", new FontUIResource(defaultFont));
@@ -38,5 +40,19 @@ public class GlobalThemeManager
         UIManager.put("Button.foreground", new ColorUIResource(defaultColour));
         UIManager.put("List.foreground", new ColorUIResource(defaultColour));
         UIManager.put("Label.foreground", new ColorUIResource(defaultColour));
+    }
+
+    private static Font createDefaultFont()
+    {
+        try
+        {
+            InputStream is = GlobalThemeManager.class.getResourceAsStream("/fonts/SFPRODISPLAYREGULAR.otf");
+            Font font = Font.createFont(Font.TRUETYPE_FONT, is);
+            return font.deriveFont(Font.PLAIN, 14);
+        }
+        catch (IOException | FontFormatException e)
+        {
+            return new Font(Font.SANS_SERIF, Font.PLAIN, 14);
+        }
     }
 }

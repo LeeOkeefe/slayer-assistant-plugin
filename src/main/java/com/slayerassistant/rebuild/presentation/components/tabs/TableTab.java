@@ -70,7 +70,7 @@ public class TableTab extends JScrollPane implements Tab<Object[][]>
                 Component c = super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
                 Border border = BorderFactory.createCompoundBorder(
                         BorderFactory.createMatteBorder(0, 0, 1, 0, Color.darkGray),
-                        BorderFactory.createEmptyBorder(10, 3, 10, 3)
+                        BorderFactory.createEmptyBorder(8, 3, 5, 3)
                 );
                 ((JComponent) c).setBorder(border);
                 return c;
