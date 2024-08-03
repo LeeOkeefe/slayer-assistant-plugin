@@ -13,11 +13,12 @@ public class TaskSearchPanel extends JPanel
 {
     private final SearchBar searchBar;
     private final SelectList<Task> selectList;
+    private final SlayerTaskRenderer taskRenderer = new SlayerTaskRenderer();
     
     public TaskSearchPanel(Consumer<String> onSearch, Consumer<Task> onSelect)
     {
         searchBar = new SearchBar(onSearch);
-        selectList = new SelectList<>(new SlayerTaskRenderer(), onSelect);
+        selectList = new SelectList<>(taskRenderer, onSelect, this::onTaskHover);
 
         setLayout(new BorderLayout());
         
@@ -34,5 +35,18 @@ public class TaskSearchPanel extends JPanel
     public void updateTaskList(Task[] tasks)
     {
         selectList.update(tasks);
+    }
+
+    private void onTaskHover(int index)
+    {
+        taskRenderer.setHoverIndex(index);
+        if (index != -1)
+        {
+            setCursor(new Cursor(Cursor.HAND_CURSOR));
+        }
+        else
+        {
+            setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+        }
     }
 }

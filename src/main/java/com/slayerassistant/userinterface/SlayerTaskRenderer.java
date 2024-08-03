@@ -1,13 +1,22 @@
 package com.slayerassistant.userinterface;
 
 import com.slayerassistant.rebuild.domain.Task;
+import net.runelite.client.ui.ColorScheme;
+import net.runelite.client.ui.PluginPanel;
 
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
+import javax.swing.border.EtchedBorder;
 import java.awt.*;
 
 public class SlayerTaskRenderer extends JLabel implements ListCellRenderer<Task>
 {
+    private static int hoverIndex = -1;
+    
+    public void setHoverIndex(int index)
+    {
+        hoverIndex = index;
+    }
+    
     @Override
     public Component getListCellRendererComponent(
             JList<? extends Task> list,
@@ -16,15 +25,25 @@ public class SlayerTaskRenderer extends JLabel implements ListCellRenderer<Task>
             boolean isSelected,
             boolean cellHasFocus)
     {
-        setBorder(new EmptyBorder(5, 5, 5, 5));
-
-        setOpaque(isSelected);
-        setBackground(isSelected ? Color.DARK_GRAY : Color.GRAY);
-        setForeground(isSelected ? Color.WHITE : Color.LIGHT_GRAY);
-        setCursor(isSelected ? new Cursor(Cursor.HAND_CURSOR) : new Cursor(Cursor.DEFAULT_CURSOR));
-
+        setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH, 35));
+        setBorder(BorderFactory.createCompoundBorder(
+                BorderFactory.createEtchedBorder(EtchedBorder.RAISED),
+                BorderFactory.createEmptyBorder(0, 5, 0, 0)
+        ));
+        
+        if (index == hoverIndex)
+        {
+            setBackground(ColorScheme.DARKER_GRAY_HOVER_COLOR);
+            setForeground(Color.WHITE);
+        }
+        else
+        {
+            setBackground(ColorScheme.DARKER_GRAY_COLOR);
+            setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+        }
+        
+        setOpaque(true);
         setText(value.name);
-        setVerticalAlignment(CENTER);
 
         return this;
     }
