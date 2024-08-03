@@ -22,7 +22,7 @@ public class TableTab extends JScrollPane implements Tab<Object[][]>
         table.setRowSelectionAllowed(false);
         
         setFocusable(false);
-        setPreferredSize(new Dimension(table.getWidth(), table.getHeight()));
+        setPreferredSize(new Dimension(table.getWidth(), 150));
         setViewportView(table);
     }
 
