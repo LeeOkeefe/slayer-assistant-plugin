@@ -1,5 +1,7 @@
 package com.slayerassistant.rebuild;
 
+import net.runelite.client.ui.ColorScheme;
+
 import javax.swing.*;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
@@ -28,13 +30,13 @@ public class GlobalThemeManager
     
     private static void setForegrounds()
     {
-        Color defaultFontColor = UIManager.getColor("TextArea.foreground");
+        Color defaultColour = ColorScheme.LIGHT_GRAY_COLOR;
         
-        UIManager.put("Table.foreground", new ColorUIResource(defaultFontColor));
-        UIManager.put("TextArea.foreground", new ColorUIResource(defaultFontColor));
-        UIManager.put("TextField.foreground", new ColorUIResource(defaultFontColor));
-        UIManager.put("Button.foreground", new ColorUIResource(defaultFontColor));
-        UIManager.put("List.foreground", new ColorUIResource(defaultFontColor));
-        UIManager.put("Label.foreground", new ColorUIResource(defaultFontColor));
+        UIManager.put("Table.foreground", new ColorUIResource(defaultColour));
+        UIManager.put("TextArea.foreground", new ColorUIResource(defaultColour));
+        UIManager.put("TextField.foreground", new ColorUIResource(defaultColour));
+        UIManager.put("Button.foreground", new ColorUIResource(defaultColour));
+        UIManager.put("List.foreground", new ColorUIResource(defaultColour));
+        UIManager.put("Label.foreground", new ColorUIResource(defaultColour));
     }
 }
