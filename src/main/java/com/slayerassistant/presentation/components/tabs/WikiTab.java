@@ -20,7 +20,7 @@ public class WikiTab extends JPanel implements Tab<WikiLink[]>
     public WikiTab() 
     {
         setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-        setBorder(BorderFactory.createLineBorder(ColorScheme.DARKER_GRAY_COLOR, 1));
+        setBackground(ColorScheme.DARKER_GRAY_COLOR);
     }
 
     @Override
@@ -33,6 +33,7 @@ public class WikiTab extends JPanel implements Tab<WikiLink[]>
         for (WikiLink wikiLink : wikiLinks) 
         {
             JButton button = new JButton(wikiLink.name);
+            button.setBackground(ColorScheme.DARKER_GRAY_HOVER_COLOR);
             button.setMaximumSize(new Dimension(Integer.MAX_VALUE, button.getMaximumSize().height));
             button.addActionListener(e -> LinkBrowser.browse(wikiLink.url));
             buttons.add(button);
