@@ -1,4 +1,4 @@
-package com.slayerassistant.rebuild.presentation.components;
+package com.slayerassistant.presentation.components;
 
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.PluginPanel;

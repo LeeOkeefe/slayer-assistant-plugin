@@ -1,9 +1,9 @@
-package com.slayerassistant.rebuild.presentation.panels;
+package com.slayerassistant.presentation.panels;
 
-import com.slayerassistant.rebuild.domain.Task;
-import com.slayerassistant.rebuild.presentation.components.SearchBar;
-import com.slayerassistant.rebuild.presentation.components.SelectList;
-import com.slayerassistant.rebuild.presentation.SlayerTaskRenderer;
+import com.slayerassistant.domain.Task;
+import com.slayerassistant.presentation.components.SearchBar;
+import com.slayerassistant.presentation.components.SelectList;
+import com.slayerassistant.presentation.SlayerTaskRenderer;
 
 import javax.swing.*;
 import java.awt.*;

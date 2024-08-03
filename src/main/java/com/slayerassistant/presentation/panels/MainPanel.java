@@ -1,8 +1,8 @@
-package com.slayerassistant.rebuild.presentation.panels;
+package com.slayerassistant.presentation.panels;
 
-import com.slayerassistant.rebuild.domain.Panel;
-import com.slayerassistant.rebuild.domain.Task;
-import com.slayerassistant.rebuild.services.TaskService;
+import com.slayerassistant.domain.Panel;
+import com.slayerassistant.domain.Task;
+import com.slayerassistant.services.TaskService;
 import net.runelite.client.ui.PluginPanel;
 
 import javax.inject.Inject;

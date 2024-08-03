@@ -1,11 +1,11 @@
-package com.slayerassistant.rebuild.services;
+package com.slayerassistant.services;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
-import com.slayerassistant.rebuild.domain.Task;
-import com.slayerassistant.rebuild.domain.WikiLink;
+import com.slayerassistant.domain.Task;
+import com.slayerassistant.domain.WikiLink;
 import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.util.ImageUtil;

@@ -1,4 +1,4 @@
-package com.slayerassistant.rebuild.presentation.components;
+package com.slayerassistant.presentation.components;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionListener;

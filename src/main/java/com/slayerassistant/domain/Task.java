@@ -1,4 +1,4 @@
-package com.slayerassistant.rebuild.domain;
+package com.slayerassistant.domain;
 
 import java.awt.image.BufferedImage;
 

@@ -1,11 +1,11 @@
 package com.slayerassistant;
 
 import com.google.inject.Binder;
-import com.slayerassistant.rebuild.presentation.GlobalThemeManager;
-import com.slayerassistant.rebuild.domain.Icon;
-import com.slayerassistant.rebuild.presentation.panels.MainPanel;
-import com.slayerassistant.rebuild.services.TaskService;
-import com.slayerassistant.rebuild.services.TaskServiceImpl;
+import com.slayerassistant.presentation.GlobalThemeManager;
+import com.slayerassistant.domain.Icon;
+import com.slayerassistant.presentation.panels.MainPanel;
+import com.slayerassistant.services.TaskService;
+import com.slayerassistant.services.TaskServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;

@@ -1,6 +1,6 @@
-package com.slayerassistant.rebuild.presentation.components.tabs;
+package com.slayerassistant.presentation.components.tabs;
 
-import com.slayerassistant.rebuild.domain.Tab;
+import com.slayerassistant.domain.Tab;
 
 import javax.swing.*;
 import java.awt.*;

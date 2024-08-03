@@ -1,8 +1,8 @@
-package com.slayerassistant.rebuild.presentation.panels;
+package com.slayerassistant.presentation.panels;
 
-import com.slayerassistant.rebuild.domain.Task;
-import com.slayerassistant.rebuild.presentation.components.Header;
-import com.slayerassistant.rebuild.presentation.components.TaskTabs;
+import com.slayerassistant.domain.Task;
+import com.slayerassistant.presentation.components.Header;
+import com.slayerassistant.presentation.components.TaskTabs;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;

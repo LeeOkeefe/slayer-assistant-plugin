@@ -1,6 +1,6 @@
-package com.slayerassistant.rebuild.presentation;
+package com.slayerassistant.presentation;
 
-import com.slayerassistant.rebuild.domain.Task;
+import com.slayerassistant.domain.Task;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.ui.PluginPanel;
 

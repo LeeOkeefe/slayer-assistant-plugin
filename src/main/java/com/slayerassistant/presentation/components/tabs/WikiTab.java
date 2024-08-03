@@ -1,7 +1,7 @@
-package com.slayerassistant.rebuild.presentation.components.tabs;
+package com.slayerassistant.presentation.components.tabs;
 
-import com.slayerassistant.rebuild.domain.Tab;
-import com.slayerassistant.rebuild.domain.WikiLink;
+import com.slayerassistant.domain.Tab;
+import com.slayerassistant.domain.WikiLink;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.util.LinkBrowser;

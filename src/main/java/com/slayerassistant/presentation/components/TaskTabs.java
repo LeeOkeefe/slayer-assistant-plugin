@@ -1,10 +1,12 @@
-package com.slayerassistant.rebuild.presentation.components;
+package com.slayerassistant.presentation.components;
 
-import com.slayerassistant.rebuild.domain.Icon;
-import com.slayerassistant.rebuild.domain.Tab;
-import com.slayerassistant.rebuild.domain.TabKey;
-import com.slayerassistant.rebuild.domain.Task;
-import com.slayerassistant.rebuild.presentation.components.tabs.*;
+import com.slayerassistant.domain.Icon;
+import com.slayerassistant.domain.Task;
+import com.slayerassistant.presentation.components.tabs.TableTab;
+import com.slayerassistant.domain.Tab;
+import com.slayerassistant.domain.TabKey;
+import com.slayerassistant.presentation.components.tabs.TextTab;
+import com.slayerassistant.presentation.components.tabs.WikiTab;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.ui.laf.RuneLiteTabbedPaneUI;
 
@@ -35,10 +37,10 @@ public class TaskTabs extends JTabbedPane
         TabKey masters = TabKey.MASTERS;
         TabKey wiki = TabKey.WIKI;
         
-        setTab(locations, Icon.COMPASS.getIcon(), new TextTab(), locations.getName());
-        setTab(items, Icon.INVENTORY.getIcon(), new TextTab(), items.getName());
-        setTab(combat, Icon.COMBAT.getIcon(), new TableTab(new String[] { "Attack Styles", "Attributes" }), combat.getName());
-        setTab(masters, Icon.SLAYER_SKILL.getIcon(), new TextTab(), masters.getName());
+        setTab(locations, com.slayerassistant.domain.Icon.COMPASS.getIcon(), new TextTab(), locations.getName());
+        setTab(items, com.slayerassistant.domain.Icon.INVENTORY.getIcon(), new TextTab(), items.getName());
+        setTab(combat, com.slayerassistant.domain.Icon.COMBAT.getIcon(), new TableTab(new String[] { "Attack Styles", "Attributes" }), combat.getName());
+        setTab(masters, com.slayerassistant.domain.Icon.SLAYER_SKILL.getIcon(), new TextTab(), masters.getName());
         setTab(wiki, Icon.WIKI.getIcon(), new WikiTab(), wiki.getName());
     }
 
