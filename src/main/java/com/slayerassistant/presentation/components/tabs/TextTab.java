@@ -1,6 +1,7 @@
 package com.slayerassistant.presentation.components.tabs;
 
 import com.slayerassistant.domain.Tab;
+import net.runelite.client.ui.ColorScheme;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.swing.*;
@@ -12,6 +13,7 @@ public class TextTab extends JTextPane implements Tab<String[]>
 {
     public TextTab()
     {
+        setBackground(ColorScheme.DARKER_GRAY_COLOR);
         setMargin(new Insets(10, 5, 10, 5));
         setEditable(false);
         setLineSpacing();

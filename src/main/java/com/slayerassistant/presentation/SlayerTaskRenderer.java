@@ -25,6 +25,7 @@ public class SlayerTaskRenderer extends JLabel implements ListCellRenderer<Task>
             boolean isSelected,
             boolean cellHasFocus)
     {
+        setOpaque(true);
         setPreferredSize(new Dimension(PluginPanel.PANEL_WIDTH, 35));
         setBorder(BorderFactory.createCompoundBorder(
                 BorderFactory.createEtchedBorder(EtchedBorder.RAISED),
@@ -39,12 +40,10 @@ public class SlayerTaskRenderer extends JLabel implements ListCellRenderer<Task>
         else
         {
             setBackground(ColorScheme.DARKER_GRAY_COLOR);
-            setForeground(ColorScheme.LIGHT_GRAY_COLOR);
+            setForeground(ColorScheme.TEXT_COLOR);
         }
         
-        setOpaque(true);
         setText(value.name);
-
         return this;
     }
 }

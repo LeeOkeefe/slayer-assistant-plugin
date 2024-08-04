@@ -7,7 +7,7 @@ public class Header extends JLabel
 {
     public Header()
     {
-        setFont(this.getFont().deriveFont(18f));
+        setFont(this.getFont().deriveFont(Font.BOLD, 18f));
         setForeground(Color.ORANGE);
         setHorizontalAlignment(SwingConstants.CENTER);
         setVerticalTextPosition(SwingConstants.TOP);
