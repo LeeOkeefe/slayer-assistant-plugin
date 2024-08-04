@@ -1,6 +1,7 @@
 package com.slayerassistant.presentation.components.tabs;
 
 import com.slayerassistant.domain.Tab;
+import org.apache.commons.lang3.StringUtils;
 
 import javax.swing.*;
 import javax.swing.text.*;
@@ -30,14 +31,17 @@ public class TextTab extends JTextPane implements Tab<String[]>
     }
 
     @Override
-    public void shutDown() { }
+    public void shutDown() 
+    { 
+        resetParagraphs();
+    }
     
     private void addParagraph(String text)
     {
         StyledDocument doc = getStyledDocument();
         try
         {
-            doc.insertString(doc.getLength(), text + "\n", null);
+            doc.insertString(doc.getLength(), StringUtils.capitalize(text) + "\n", null);
         }
         catch (BadLocationException e)
         {
