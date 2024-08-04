@@ -11,7 +11,7 @@ public class SelectList<T> extends JList<T>
 {
     public SelectList(ListCellRenderer<T> renderer, Consumer<T> onSelect)
     {
-       ListSelectionListener onSelectListener = e ->
+        ListSelectionListener onSelectListener = e ->
         {
             T selectedValue = getSelectedValue();
             if (e.getValueIsAdjusting() || selectedValue == null)
@@ -19,6 +19,7 @@ public class SelectList<T> extends JList<T>
                 return;
             }
             onSelect.accept(selectedValue);
+            clearSelection();
         };
 
         setCellRenderer(renderer);
