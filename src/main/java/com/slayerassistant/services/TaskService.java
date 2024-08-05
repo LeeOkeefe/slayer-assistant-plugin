@@ -1,6 +1,6 @@
-package com.slayerassistant.rebuild.services;
+package com.slayerassistant.services;
 
-import com.slayerassistant.rebuild.domain.Task;
+import com.slayerassistant.domain.Task;
 
 import java.util.Comparator;
 
