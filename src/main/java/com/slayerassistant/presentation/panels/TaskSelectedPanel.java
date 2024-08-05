@@ -39,7 +39,7 @@ public class TaskSelectedPanel extends JPanel
     public void update(Task task)
     {
         header.update(task.name, new ImageIcon(task.image));
-        taskTabs.update(task);
+        SwingUtilities.invokeLater(() -> taskTabs.update(task));
     }
 }
 
