@@ -61,7 +61,7 @@ public class SlayerAssistantPlugin extends Plugin
 	private NavigationButton getNavButton()
 	{
 		return NavigationButton.builder()
-				.tooltip("Slayer assistant")
+				.tooltip("Slayer Assistant")
 				.icon(Icon.SLAYER_SKILL.getImage())
 				.priority(10)
 				.panel(mainPanel)
