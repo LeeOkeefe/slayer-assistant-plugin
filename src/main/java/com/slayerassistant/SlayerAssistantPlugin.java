@@ -2,9 +2,8 @@ package com.slayerassistant;
 
 import com.google.inject.Binder;
 import com.slayerassistant.domain.Icon;
+import com.slayerassistant.modules.TaskServiceModule;
 import com.slayerassistant.presentation.panels.MainPanel;
-import com.slayerassistant.services.TaskService;
-import com.slayerassistant.services.TaskServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
@@ -29,16 +28,10 @@ public class SlayerAssistantPlugin extends Plugin
 	
 	private NavigationButton navButton;
 
-	private static final String TASKS_JSON_PATH = "/data/tasks.json";
-	private static final String WIKI_URL = "https://oldschool.runescape.wiki/w/";
-	private static final String BASE_IMAGES_PATH = "/images/monsters/";
-
     @Override
 	public void configure(Binder binder)
 	{
-        binder
-			.bind(TaskService.class)
-			.toInstance(new TaskServiceImpl(TASKS_JSON_PATH, WIKI_URL, BASE_IMAGES_PATH));
+		binder.install(new TaskServiceModule());
 	}
 
 	@Override
