@@ -6,10 +6,11 @@ import com.google.gson.reflect.TypeToken;
 
 import com.slayerassistant.domain.Task;
 import com.slayerassistant.domain.WikiLink;
-import lombok.NonNull;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.util.ImageUtil;
 
+import javax.inject.Inject;
+import javax.inject.Named;
 import javax.inject.Singleton;
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -24,10 +25,12 @@ public class TaskServiceImpl implements TaskService
     private final String baseWikiUrl;
     private final String baseImagesPath;
     
+    @Inject
     public TaskServiceImpl(
-            @NonNull String dataPath,
-            @NonNull String baseWikiUrl,
-            @NonNull String baseImagesPath)
+            Gson gson,
+            @Named("dataPath") String dataPath,
+            @Named("baseWikiUrl") String baseWikiUrl,
+            @Named("baseImagesPath") String baseImagesPath)
     {
         this.baseWikiUrl = baseWikiUrl;
         this.baseImagesPath = baseImagesPath;
@@ -42,7 +45,7 @@ public class TaskServiceImpl implements TaskService
         try (Reader reader = new InputStreamReader(inputStream))
         {
             Type type = new TypeToken<Map<String, Task>>() {}.getType();
-            Map<String, Task> data = new Gson().fromJson(reader, type);
+            Map<String, Task> data = gson.fromJson(reader, type);
             
             data.forEach((key, value) -> 
             {
