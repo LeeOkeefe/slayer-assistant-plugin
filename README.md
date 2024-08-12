@@ -1,6 +1,8 @@
 [![](https://img.shields.io/endpoint?url=https://i.pluginhub.info/shields/installs/plugin/slayer-assistant)](https://runelite.net/plugin-hub)
 [![](https://img.shields.io/endpoint?url=https://i.pluginhub.info/shields/rank/plugin/slayer-assistant&color=blueviolet)](https://runelite.net/plugin-hub)
 
+<a href="https://www.buymeacoffee.com/LeeOkeefe" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 # Slayer Assistant
 ![Enable](https://user-images.githubusercontent.com/34274877/164912013-1549c7bf-e4bc-4bbc-af45-6c97fe48e144.png)
 
