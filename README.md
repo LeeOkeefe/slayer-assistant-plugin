@@ -4,35 +4,31 @@
 <a href="https://www.buymeacoffee.com/LeeOkeefe" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 # Slayer Assistant
-![Enable](https://user-images.githubusercontent.com/34274877/164912013-1549c7bf-e4bc-4bbc-af45-6c97fe48e144.png)
+<img width="273" alt="Enable Plugin" src="https://github.com/user-attachments/assets/31ae7bc7-f093-4d09-811e-2f683268b70b">
+<img width="250" alt="Task Search" src="https://github.com/user-attachments/assets/d671e1f4-8cbd-4d63-aedb-fdc7526c2685">
+<hr>
+<img width="199" alt="Locations" src="https://github.com/user-attachments/assets/18c1b7f7-055c-4f2a-947f-8df24d387065">
+<img width="199" alt="Required Items" src="https://github.com/user-attachments/assets/d83857f9-9cd2-4b73-83a6-5707267bf6a4">
+<img width="199" alt="Combat" src="https://github.com/user-attachments/assets/95f97ab4-3beb-4e39-9e9c-48d76bfbd51b">
+<img width="199" alt="Slayer Masters" src="https://github.com/user-attachments/assets/689cd8fb-ec48-4206-84b0-32619a5739b3">
+<img width="199" alt="Wiki Links" src="https://github.com/user-attachments/assets/1ff78a62-334a-4632-ab91-898866ddc919">
+<hr>
 
-![Search](https://user-images.githubusercontent.com/34274877/164911097-805ef1fa-1199-4689-9a5c-bfb9485a6fa2.png)
+<details>
+  <summary>Features</summary>
+  <ul>
+    <li>Task Search by Name</li>
+    <li>Task Locations</li>
+    <li>Task Required Items</li>
+    <li>Task Attack Styles & Atrributes</li>
+    <li>Task Slayer Masters</li>
+    <li>Task & Variants Wiki Links</li>
+  </ul>
+</details>
 
-![Locations](https://user-images.githubusercontent.com/34274877/164912251-fc37ef04-6795-4d44-8871-afbedef6cb2b.png)
-![ItemsRequired](https://user-images.githubusercontent.com/34274877/164912010-d15a1535-aa50-4350-be54-6a4bf61eb066.png)
-![Combat](https://user-images.githubusercontent.com/34274877/164912508-f9a79266-e76e-4fc3-876a-575f07dcba61.png)
-![Masters](https://user-images.githubusercontent.com/34274877/164912321-090743ba-194e-4153-a938-553d376b0eff.png)
-
-```diff
-+ Search
-Search for a task by monster name
-Select the item from the list
-View tabs for task information
-```
-```diff
-+ Information
-Locations: locations where the monster is found
-Items: items that are required or recommended
-Combat: monster attack styles and attributes
-Masters: slayer masters that can assign the task
-```
-```diff
-! Contributing
-Contributions to the plugin are welcome.
-
-Some things I considered adding, but have not the time at the moment...
-  - Have a button next to each location, which shows the user the fastest routes
-  - Restructure the data to make it easier to manage / extend
-  - Items and alternatives i.e. "Anti-dragon shield OR Dragonfire shield" instead of listing both separately
-  - Longer lines in the combat tab table have an ellipsis, but should have line wrapping instead
-```
+<details>
+  <summary>Contributions</summary>
+  <p>Contributions are welcomed. This can include code contributes, design or suggesting and discussing ideas.</p>
+  <p>Please raise an issue to open a discussion regarding feature development.</p>
+  <p>If you are making a code contribution, please follow the code style and conventions of the codebase.</p>
+</details>
