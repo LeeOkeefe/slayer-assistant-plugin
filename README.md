@@ -1,5 +1,5 @@
-[![](https://img.shields.io/endpoint?url=https://i.pluginhub.info/shields/installs/plugin/slayer-assistant)](https://runelite.net/plugin-hub)
-[![](https://img.shields.io/endpoint?url=https://i.pluginhub.info/shields/rank/plugin/slayer-assistant&color=blueviolet)](https://runelite.net/plugin-hub)
+[![](https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/installs/plugin/slayer-assistant)](https://runelite.net/plugin-hub)
+[![](https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/rank/plugin/slayer-assistant&color=blueviolet)](https://runelite.net/plugin-hub)
 
 <a href="https://www.buymeacoffee.com/LeeOkeefe" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 190px !important;" ></a>
 
